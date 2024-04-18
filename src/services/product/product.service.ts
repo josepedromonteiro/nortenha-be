@@ -1,0 +1,300 @@
+import { Injectable } from '@nestjs/common';
+import { WordpressService } from '../wordpress/wordpress.service';
+import * as fs from 'fs';
+import * as csv from 'csv-parser';
+import * as FormData from 'form-data';
+import { WoocommerceService } from '../woocommerce/woocommerce.service';
+import axios from 'axios';
+import { Category } from '../../models/woo/category';
+import { Product } from '../../models/woo/product';
+import { VendusService } from '../vendus/vendus.service';
+import { PdfGeneratorService } from '../pdf-generator/pdf-generator.service';
+import { VendusProduct } from '../../models/vendus/product';
+
+const CSV_FILE = 'products.csv';
+
+@Injectable()
+export class ProductService {
+  constructor(
+    public wpService: WordpressService,
+    public wooService: WoocommerceService,
+    public vendusService: VendusService,
+    public pdfGenerator: PdfGeneratorService,
+  ) {}
+
+  public async generateProductTags(products?: VendusProduct[]) {
+    if (products) {
+      return this.pdfGenerator.generatePDF(products);
+    }
+
+    return null;
+    this.vendusService.getProducts().then((prd) => {
+      // const p = products.slice(0, 100);
+      return this.pdfGenerator.generatePDF(prd);
+    });
+  }
+
+  public async addProductsFromVendusAPI() {
+    // this.vendusService.getProducts().then(async (products) => {
+    //   const products_ = products.slice(0, 10);
+    //   const productToAdd = [];
+    //   for await (const product of products_) {
+    //     try {
+    //       const externalId = `${product.reference}-${product.barcode}`;
+    //       const vendusImageUrl = product.images?.m?.replace('_m', '');
+    //       const imageUrl = await this.uploadImage(vendusImageUrl, externalId);
+    //
+    //       const category = await this.vendusService.getCategoryById(
+    //         product.category_id,
+    //       );
+    //       const vat = await this.vendusService.getTaxById(product.tax_id);
+    //
+    //       console.log(
+    //         JSON.stringify({
+    //           title: product.title,
+    //           price: product.prices?.[0]?.price,
+    //           desc: product.description,
+    //           id: externalId,
+    //           cat: category.title,
+    //           image: imageUrl,
+    //           unit: product.unit_id,
+    //           rate: vat?.rate,
+    //           barcode: product.barcode,
+    //         }),
+    //       );
+    //
+    //       // await this.createProduct(
+    //       //   product.title,
+    //       //   product.prices?.[0]?.price,
+    //       //   product.description,
+    //       //   externalId,
+    //       //   category.title,
+    //       //   imageUrl,
+    //       //   product.unit_id,
+    //       //   vat.rate,
+    //       //   product.barcode,
+    //       // );
+    //     } catch (error) {
+    //       console.error(`Failed to create product: ${error}`);
+    //     }
+    //   }
+    //
+    //   await Promise.all(productToAdd);
+    // });
+  }
+
+  public addProductsFromCSVFile() {
+    const csvPipe = fs.createReadStream(CSV_FILE).pipe(csv({ separator: ';' }));
+
+    csvPipe
+      .on('data', async (row) => {
+        csvPipe.pause();
+        const {
+          name,
+          price,
+          description,
+          reference,
+          barcode,
+          category,
+          image,
+          unity,
+          vat,
+        } = row;
+        try {
+          const externalId = `${reference}-${barcode}`;
+          const imageUrl = await this.uploadImage(image, externalId);
+          await this.createProduct(
+            name,
+            price,
+            description,
+            externalId,
+            category,
+            imageUrl,
+            unity,
+            vat,
+            barcode,
+          );
+        } catch (error) {
+          console.error(`Failed to create product: ${error}`);
+        }
+        csvPipe.resume();
+      })
+      .on('end', () => {
+        console.log('CSV file successfully processed');
+      });
+  }
+
+  private generateUUID = () => {
+    return Math.random().toString(36).substring(2) + Date.now().toString(36);
+  };
+
+  // Function to upload image to WordPress
+  private uploadImage = async (imageUrl, productId): Promise<string> => {
+    if (!imageUrl) return null;
+
+    if (productId) {
+      await this.removeProductImage(productId);
+    }
+
+    const file: ArrayBuffer = await axios
+      .get(imageUrl, { responseType: 'arraybuffer' })
+      .then((res) => res.data);
+
+    const formData = new FormData();
+    formData.append('file', file, { filename: `${productId}.jpg` });
+
+    return this.wpService
+      .request('media', 'post', formData)
+      .then((res) => {
+        if (res?.data?.source_url) {
+          return res.data.source_url;
+        }
+
+        const regex = /\{.*}/; // Regular expression to match anything between curly braces
+        const match = res.data.match(regex);
+        if (match) {
+          const extractedJSON = match[0];
+          const jsonObject = JSON.parse(extractedJSON);
+          console.log('new media', jsonObject.source_url);
+          return jsonObject.source_url;
+        } else {
+          console.log('No JSON found in the string.');
+          return null;
+        }
+      })
+      .catch((e) => {
+        // const existingImage = e.response?.data?.data?.resource_id;
+
+        const regex = /as post (.*?)!/s; // Regular expression to match 'as post' followed by anything until '!'
+        const match = e.response?.data?.message?.match(regex);
+
+        if (match) {
+          const extractedPostId = match[1];
+          return this.wpService
+            .request(`media/${extractedPostId}`, 'get')
+            .then((result) => {
+              console.log('media exists', result.data.source_url);
+              return result.data.source_url;
+            });
+        } else {
+          console.log('Media -> No match found.');
+        }
+        return null;
+      });
+  };
+
+  private removeProductImage = async (productId) => {
+    // console.log(productId);
+    return this.wooService.instance
+      .get('products', {
+        sku: productId,
+      })
+      .then(async (response) => {
+        if (
+          !response.data?.[0]?.images?.length ||
+          response.data?.[0]?.images?.length <= 0
+        ) {
+          return;
+        }
+        await Promise.all(
+          response.data[0].images.map((imageData) =>
+            this.wpService
+              .request(`media/${imageData.id}?force=true`, 'delete')
+              .catch((e) => {
+                console.log('error', e);
+              }),
+          ),
+        );
+      });
+  };
+
+  // Function to create a product using WooCommerce REST API
+  private createProduct = async (
+    name,
+    price,
+    description,
+    external_id,
+    category,
+    image,
+    unity,
+    vat,
+    barcode,
+  ) => {
+    const metadata = [
+      {
+        key: 'unity',
+        value: unity,
+      },
+      {
+        key: 'barcode',
+        value: barcode,
+      },
+    ];
+    const payload: RecursivePartial<Product> = {
+      name,
+      type: 'simple',
+      regular_price: price,
+      description,
+      sku: external_id,
+      categories: [{ id: await this.handleCategory(category) }],
+      meta_data: metadata as any,
+      tax_class: vat,
+    };
+
+    if (image) {
+      payload.images = [{ src: image }];
+    }
+
+    return this.wooService.instance
+      .post('products', payload)
+      .then((response) => {
+        console.log('Product created successfully', response?.data?.id);
+        return response;
+      })
+      .catch((e) => {
+        const existingProductId = e?.response?.data?.data?.resource_id;
+        if (existingProductId) {
+          console.warn('Product exists, updating...', existingProductId);
+          return this.updateProduct(existingProductId, payload);
+        } else {
+          console.error('Error creating product', e);
+        }
+      });
+  };
+
+  private updateProduct = (
+    productId: number,
+    productData: RecursivePartial<Product>,
+  ) => {
+    return this.wooService.instance
+      .put(`products/${productId}`, productData)
+      .then((response) => {
+        console.log('Product updated successfully', response?.data?.id);
+        return response;
+      })
+      .catch((e) => {
+        console.error('Error updating product', e);
+      });
+  };
+
+  private handleCategory = async (categoryName: string): Promise<number> => {
+    const payload: Partial<Category> = {
+      name: categoryName,
+    };
+
+    return this.wooService.instance
+      .post('products/categories', payload)
+      .then((createdCategory: Category) => {
+        return createdCategory.id;
+      })
+      .catch((e) => {
+        const resourceId = e?.response?.data?.data?.resource_id;
+        if (resourceId) {
+          console.warn('Category exists w/ ID:', resourceId);
+          return resourceId;
+        } else {
+          console.error('Error creating category', e?.response);
+        }
+      });
+  };
+}

@@ -1,0 +1,544 @@
+name;variation_type;variant;category;brand;reference;barcode;description;description_on_invoice;price;price_supplier;unity;control_stock;vat;vat_isention;vat_isention_norm;product_type;class_;merceria_nortenha;stock_merceria_nortenha;profit_margin;image
+Pao Saloio;;;PADARIA;Santos;VPAO101-24030188;8480000145772;;Sim;0,1500;0,1060;Uni;Sim;6;;;P;ALI;S;-392,0000;33.50;https://www.vendus.pt/foto/ea5249ff32ac922be37e143c2110967d.jpg
+Pão Integral;;;PADARIA;Santos;VPAO100-24030135;;;Não;0,1500;0,1000;Uni;Sim;6;;;P;;S;-317,0000;41.51;https://www.vendus.pt/foto/3a17ebf53544cca1bf1c8d6ce0c4f358.jpg
+Gillette Platinum 5 lâminas;;;HIGIENE;Gillette;VGIL4-24022577;3014260596989;;Sim;2,9500;0,0000;Uni;Sim;23;;;P;PER;S;0;100;
+Gillette Platinum 10x5 lâminas;;;HIGIENE;Gillette;VGIL5-24022575;3014260411879;;Sim;20,0000;0,0000;Uni;Sim;23;;;P;PER;S;0;100;
+Gás Pulma;;;UTILITARIOS;Rubis;VGAS98-24030188;;;Não;30,0015;21,0000;Uni;Sim;23;;;P;;S;0,0000;16.15;https://www.vendus.pt/foto/2003a9edcaa22bc70c542c792076d472.png
+Amaciador Color Vive 200 ml. L´Oreal;;;HIGIENE;L'Òréal;VLIN7-24022531;3600521525456;;Não;3,6900;2,0000;Uni;Sim;23;;;P;PER;S;7,0000;50.00;
+Abrilhantador Máquina de Loiça;;;LIMPEZA;Fairy;Fairy 475 ml;5413149957763;;Não;4,4000;0,0000;Uni;Sim;23;;;P;CAS;S;2,0000;100;
+Fio Dental Sensodyne;;;HIGIENE;Sensodyne;VFIO9-24022549;5601385501585;;Não;3,5900;0,0000;Uni;Sim;23;;;P;PER;S;4,0000;100;
+Pensos hig. 16 und. Evax;;;HIGIENE;Evax;VPEN10-24022528;8410108006682;;Não;1,8000;0,0000;Uni;Sim;23;;;P;PER;S;-2,0000;100;
+Pastilhas Limpeza de Próteses Dentárias Oxigénio Ativo;;;HIGIENE;Polident;Polident emb. 48 un;5601385504852;;Não;5,7900;0,0000;Uni;Sim;23;;;P;PER;S;0;100;
+Amaciadoe Extrato de Toranja 250 ml Fructis;;;HIGIENE;Fructis;VAMA212-24030335;5601036305043;;Não;3,2484;1,9000;Uni;Sim;23;;;P;PER;S;5,0000;39.00;
+Champô Alisador 250 ml. Fructis;;;HIGIENE;Fructis;VFRU13-24022580;3600540016911;;Não;3,3852;1,9800;Uni;Sim;23;;;P;PER;S;7,0000;39.00;
+Amaciador Aloe Vera 200 ml Fructis;;;HIGIENE;Fructis;VFRU14-24022592;3600542117357;;Não;3,2484;1,9000;Uni;Sim;23;;;P;PER;S;0;39.00;
+Tocas Piaçaba;;;LIMPEZA;;VTOC15-24022539;560030505967;;Não;0,0000;0,0000;Uni;Sim;23;;;P;;S;0;;
+Tampões Hig. 32 und. O.B;;;HIGIENE;ob;VTAM16-24022518;4001683011525;;Não;4,5000;0,0000;Uni;Sim;23;;;P;PER;S;0;100;
+Gracha Sapatos Spray;;;HIGIENE;;VGRA17-2402257;;;Não;3,2500;0,0000;Uni;Sim;23;;;P;;S;0;100;
+Gracha Sapatos Spray;Cor;Preto;HIGIENE;;VGRA17-2402257.;5601149015839;;Não;0,0000;0,0000;Uni;Sim;23;;;P;;S;0;;
+Gracha Sapatos Spray;Cor;Castanho;HIGIENE;;VGRA17-2402257.;5601149015846;;Não;0,0000;0,0000;Uni;Sim;23;;;P;;S;0;;
+Renovador de Móveis;;;MERCEARIA;Margem;VREN18-24022586;;;Não;3,1500;0,0000;Uni;Sim;23;;;P;;S;0;100;
+Renovador de Móveis;Tons;Escuro;MERCEARIA;Margem;VREN18-24022586.;5601288200714;;Não;0,0000;0,0000;Uni;Sim;23;;;P;;S;0;;
+Renovador de Móveis;Tons;Normal;MERCEARIA;Margem;VREN18-24022586.;5601288200707;;Não;0,0000;0,0000;Uni;Sim;23;;;P;;S;0;;
+Vaselina Purificada;;;SAÚDE;Hidro;VVAS19-24022518;5601233862004;;Não;0,7500;0,0000;Uni;Sim;23;;;P;PER;S;0;100;
+Tampões Higiénicos Super  16 und. O.B.;;;HIGIENE;ob;VTAM20-24022553;3574660239881;;Não;2,9900;0,0000;Uni;Sim;23;;;P;PER;S;-1,0000;100;
+Cerveja S/Alcóol Pack. 6;;;BEBIDAS S/ ALCOOL;Cheers;VCER21-24022527;5601164184206;;Não;3,5900;0,0000;Uni;Sim;23;;;P;ALT;S;3,0000;100;
+Cerveja S/Alcóol;;;BEBIDAS S/ ALCOOL;;VCER22-24022531;5601164184107;;Não;0,7900;0,0000;Uni;Sim;23;;;P;ALT;S;-1,0000;100;
+Pão de Alho e Salsa 150 g;;;SNACKS;Argente;VPAO23-24022940;8413664511447;;Não;1,2264;0,8900;Uni;Sim;6;;;P;;S;7,0000;30.00;https://www.vendus.pt/foto/7148fcd5dd37a245911a6cb2161e7aea.jpg
+Croco Puffs Milho c/ sabor  Pizza 150 g;;;SNACKS;Croco 1;VCRO24-24022924;5941194005424;;Não;1,7429;1,0900;Uni;Sim;23;;;P;;S;-11,0000;30.00;https://www.vendus.pt/foto/bd9451d6264864d62d460a9d231c1813.jpg
+Coquinhos 120g Monte Turia;;;SNACKS;Monte Turia;VCOQ25-24022982;8410251007109;;Não;0,9900;0,6750;Uni;Sim;23;;;P;ALI;S;0,0000;19.24;https://www.vendus.pt/foto/561fdcd62adff6f589c01e3ea4d0c58c.jpg
+Twins 2 x 154 g;;;SNACKS;Gullón;VTWI26-24022970;8410376047202;;Não;1,5000;0,9700;Uni;Sim;23;;;P;;S;8,0000;25.72;https://www.vendus.pt/foto/089ab105f9c3849633e99bcb408231b9.jpg
+Madalenas Conchas Marmore 165 g;;;SNACKS;Arenas;VMAD27-2402299;8412997000178;;Não;1,3900;0,9000;Uni;Sim;23;;;P;;S;6,0000;25.56;https://www.vendus.pt/foto/ef216ffe559205243515e725db6dd366.jpg
+Madalena Concha sc 165 g;;;SNACKS;Arenas;VMAD28-24022936;8412997001663;;Não;1,0959;0,6600;Uni;Sim;23;;;P;ALI;S;6,0000;35.00;
+Choco Chips Negro  175 g;;;SNACKS;Gullón;VCHO29-24022976;8410376046830;;Não;1,2000;0,8100;Uni;Sim;23;;;P;ALI;S;4,0000;20.45;https://www.vendus.pt/foto/bb079cdee0cd5e5bd1d7b013e639096b.png
+Bolacha Maria Dourada Pack 3;;;SNACKS;Gullón;VBOL30-2402294;8410376038132;;Não;1,7989;1,1250;Uni;Sim;23;;;P;ALI;S;8,0000;30.00;
+Bolacha Maria 800 g;;;DOCES E CHOCOLATES;Gullón;VBOL31-24022926;8410376006070;;Não;1,9900;1,2950;Uni;Sim;23;;;P;ALI;S;7,0000;24.93;
+Bolacha Tostada  800 g;;;DOCES E CHOCOLATES;Gullón;VBOL32-24022958;8410376000146;;Não;2,2178;1,3870;Uni;Sim;23;;;P;ALI;S;8,0000;30.00;
+Pistachos Tor. 100 g;;;SNACKS;Dolcelli;VPIS33-24022944;5600346580669;;Não;2,6703;1,6700;Uni;Sim;23;;;P;ALI;S;-1,0000;30.00;
+Amendoim Frito c/ Sal  100 g;;;SNACKS;Dolcelli;VAME34-24022967;5600346580522;;Não;0,9274;0,5800;Uni;Sim;23;;;P;ALI;S;8,0000;30.00;
+Amendoim Frito S/ Sal  100 g;;;SNACKS;Dolcelli;VAME35-24022957;5600346580676;;Não;0,9274;0,5800;Uni;Sim;23;;;P;ALI;S;8,0000;30.00;
+Cocktail Salgado 150g;;;SNACKS;Dolcelli;VCOC36-24022982;5600346480440;;Não;1,2616;0,7890;Uni;Sim;23;;;P;ALI;S;8,0000;30.00;
+Miolo Noz 100 g;;;SNACKS;Dolcelli;VMIO37-24022924;5600346580560;;Não;1,5900;1,0260;Uni;Sim;23;;;P;ALI;S;6,0000;25.99;https://www.vendus.pt/foto/d95d3087cc6bc5cd95ad69b2f9c00233.jpg
+Caju W3 Frito c/ sal 100 g;;;SNACKS;Dolcelli;VCAJ38-24022934;5600346580553;;Não;1,9908;1,2450;Uni;Sim;23;;;P;ALI;S;6,0000;30.00;https://www.vendus.pt/foto/55b493d8a6cf86d3676abd24bc623926.jpg
+Amendoa Fr 100 g;;;DOCES E CHOCOLATES;;VAME39-24022969;5600424800467;;Não;1,1500;0,7130;Uni;Sim;23;;;P;ALI;S;8,0000;31.13;
+Bom. min Ovetti Avelã 115 g;;;SNACKS;;VBOM40-24022972;8003535081737;;Não;1,7535;1,0800;Uni;Sim;23;;;P;ALI;S;4,0000;32.00;
+Bom. min Ovetti lEITE 115 g;;;SNACKS;;VBOM41-24022985;8003535081652;;Não;1,6900;1,0800;Uni;Sim;23;;;P;ALI;S;5,0000;27.22;
+Bom. min Ovetti Leite & Avelã 115 g;;;SNACKS;;VBOM42-24022911;8003535081690;;Não;1,6900;1,0800;Uni;Sim;23;;;P;ALI;S;4,0000;27.22;
+Ambrosias Avelã 86 g;;;SNACKS;Tirma;VAMB43-24022916;8410085424509;;Não;1,0000;0,6570;Uni;Sim;23;;;P;ALI;S;6,0000;23.75;https://www.vendus.pt/foto/65e619ce6b0fcc3db20b9ed4aa998809.jpg
+Ambrosias Choc./ Leite 86 g;;;SNACKS;Tirma;VAMB44-24022947;8410085424400;;Não;1,0000;0,6570;Uni;Sim;23;;;P;ALI;S;4,0000;23.75;https://www.vendus.pt/foto/65e6a68110e570381cea114af2469b3c.jpg
+Ambrosias Choc. Branco 86 g;;;SNACKS;Tirma;VAMB45-24022942;8410085424608;;Não;1,0000;0,6570;Uni;Sim;23;;;P;ALI;S;8,0000;23.75;https://www.vendus.pt/foto/65e6a28af6733d3423da5c13ccc90104.jpg
+Atum em Óleo Vegetal 120g;;;CONSERVAS;Oceano;VATU46-24022994;5604912467040;;Não;0,8459;0,6000;Uni;Sim;6;;;P;ALI;S;17,0000;33.00;https://www.vendus.pt/foto/1990e4e1e1ce085329699572cbb0eb79.jpg
+Bol. Ligera  200g;;;DOCES E CHOCOLATES;Gullón;VBOL47-24022924;8410376002201;;Não;1,2515;0,7650;Uni;Sim;23;;;P;ALI;S;3,0000;33.00;https://www.vendus.pt/foto/55088e16a37a7f5a307b0a3a2c5be5d5.jpg
+Bol. Agua e Sal 125 g;;;DOCES E CHOCOLATES;Vieira;VBOL48-2402293;5601008100058;;Não;0,7435;0,4760;Uni;Sim;23;;;P;ALI;S;10,0000;26.99;https://www.vendus.pt/foto/5a91295c3dd4291745d85925ea86502f.jpg
+Rebuçados Mentolis;;;DOCES E CHOCOLATES;Vieira;100g Vieira;5601008400325;;Não;0,7874;0,5000;Uni;Sim;23;;;P;ALI;S;15,0000;28.03;
+Milho p/ Pipocas 200 g;;;SNACKS;Dolcelli;VMIL50-24030110;5600346581789;;Não;0,7303;0,5300;Uni;Sim;6;;;P;ALI;S;12,0000;29.99;
+Aguas Serra da Penha 1,5 lt;;;BEBIDAS S/ ALCOOL;Serra da Penha;VAGU51-24030147;5601591000025;;Não;0,4900;0,3200;Uni;Sim;13;;;P;ALI;S;-6,0000;35.51;https://www.vendus.pt/foto/7b78f79772f904e3e893a566e0ce305a.jpg
+Ice de Limao 1,5 l;;;BEBIDAS S/ ALCOOL;Lipton;VICE52-24030144;8711327580961;;Não;2,3505;1,4700;Uni;Sim;23;;;P;;S;4,0000;30.00;https://www.vendus.pt/foto/04a1bbfa98ce31bfc94e5849fe9ff3cd.jpg
+Ice de Pêssego 1,5 l;;;BEBIDAS S/ ALCOOL;Lipton;VICE53-24030142;8711327580978;;Não;2,3505;1,4700;Uni;Sim;23;;;P;;S;1,0000;30.00;https://www.vendus.pt/foto/3504610a2f994bb9c39fb13cdbf34d27.jpg
+Ice de Manga 1,5 l;;;BEBIDAS S/ ALCOOL;Lipton;VICE54-2403017;8722700781493;;Não;2,3505;1,4700;Uni;Sim;23;;;P;;S;3,0000;30.00;https://www.vendus.pt/foto/f6f678ca7bb0060e23445299fa798c2d.jpg
+Feijão Branco frasco;;;CONSERVAS;meps;VFEI55-24030190;5603670558007;;Não;1,1017;0,6890;Uni;Sim;23;;;P;;S;5,0000;30.00;https://www.vendus.pt/foto/78fe58940f6f337497bb207e5a4416c6.jpg
+Feijão Frasco Vermelho;;;CONSERVAS;meps;VFEI56-2403018;5603670888005;;Não;1,1017;0,6890;Uni;Sim;23;;;P;;S;7,0000;30.00;https://www.vendus.pt/foto/b89341a2d5a68de0951dab38dec2d97b.jpg
+Feijão Frade Frasco;;;CONSERVAS;meps;VFEI57-24030185;5603670558106;;Não;1,1017;0,6890;Uni;Sim;23;;;P;;S;11,0000;30.00;https://www.vendus.pt/foto/128c6fa6864bf63d71cd6c96a5e02f29.jpg
+Feijão Preto lata;;;CONSERVAS;meps;VFEI58-24030184;5603670401006;;Não;1,4471;0,9120;Uni;Sim;23;;;P;;S;10,0000;29.00;
+Macarronete Riscado 500g Milaneza;;;MASSA;Milaneza;VMAC59-24030126;5601286250780;;Não;1,4878;1,2100;Uni;Sim;6;;;P;ALI;S;17,0000;16.00;https://www.vendus.pt/foto/16ed8687adcf3a6163a6d232587a3c06.jpg
+Cotovelos G 500 g Milaneza;;;MASSA;Milaneza;VCOT60-24030184;5601286220783;;Não;1,4885;1,1800;Uni;Sim;6;;;P;;S;12,0000;19.00;
+Esparguete 550g;;;MASSA;Milaneza;VESP61-24030197;5601286260765;;Não;1,2544;0,9700;Uni;Sim;6;;;P;ALI;S;13,0000;22.00;
+Joi Maça 1.5 L;;;BEBIDAS S/ ALCOOL;Joi;VJOI62-2403018;5601146231300;;Não;1,6919;1,0500;Uni;Sim;23;;;P;;S;6,0000;31.00;
+Abacaxi Extra;;;FRUTARIA;Frutas Ribeiros;FTAbacaxi;;;Não;2,0394;1,4800;Kg;Sim;6;;;P;;S;-11,8200;30.00;https://www.vendus.pt/foto/3250c9d416b2fdc214843a8d57f791f3.jpg
+Banana est.;;;FRUTARIA;Frutas Ribeiros;BANACCR01.01;;;Não;1,3500;1,0500;Kg;Sim;6;;;P;;S;-10,0850;21.29;https://www.vendus.pt/foto/c0d2b028bd07fb8c3b1689d012246370.png
+Banana Madeira;;;FRUTARIA;Frutas Ribeiros;BANANAM01.03;;;Não;3,2934;2,3900;Kg;Sim;6;;;P;;S;-3,9600;30.00;https://www.vendus.pt/foto/fe5a8f474cb11a3227b872978f6313f3.jpg
+Clementina;;;FRUTARIA;Frutas Ribeiros;CLEMONAC02.44;;;Não;1,7300;1,2500;Kg;Sim;6;;;P;ALI;S;-44,7750;30.57;https://www.vendus.pt/foto/3efffbde65ca63b9f8fad2aa5a849747.png
+Laranja cal. 5;;;FRUTARIA;Frutas Ribeiros;LARNP01.05;;;Não;1,2815;0,9300;Kg;Sim;6;;;P;ALI;S;-25,5000;30.00;https://www.vendus.pt/foto/f9e5c9a020b64037ae4e52863bc18f58.jpg
+Limão Nac.;;;FRUTARIA;Frutas Ribeiros;LIMAOPT01.02;;;Não;1,1193;0,7000;Kg;Sim;6;;;P;ALI;S;0,2750;50.85;https://www.vendus.pt/foto/d4889cbee6eeeb61c0157485ef7126a1.jpg
+Maça Golden 70/75;;;FRUTARIA;Frutas Ribeiros;MAÇAGPT01.02;;;Não;1,0886;0,7900;Kg;Sim;6;;;P;;S;-37,9050;30.00;https://www.vendus.pt/foto/961dd6a242d1fa8286ad4d82758a2273.jpg
+Maça Granny Smith 75/80;;;FRUTARIA;Frutas Ribeiros;MAÇAGSP01.03;;;Não;1,6500;1,2000;Kg;Sim;6;;;P;;S;-0,2700;29.72;https://www.vendus.pt/foto/b60365df4ca0929154c9173ee388724d.jpg
+Maça Fuji 70/75;;;FRUTARIA;Frutas Ribeiros;VMAC71-24030185;;;Não;2,0627;1,2900;Kg;Sim;6;;;P;ALI;S;-14,3400;50.85;https://www.vendus.pt/foto/2312b50c0bd1f21dfbe04949286ec51c.jpg
+Manga Palmer;;;FRUTARIA;;MANGA PB01.10;;;Não;5,9254;4,3000;Kg;Sim;6;;;P;;S;-14,9950;30.00;https://www.vendus.pt/foto/951993c38a0459fcfb7d55b37056be7f.jpg
+Morango;;;FRUTARIA;Frutas Ribeiros;MORANES01.02;;;Não;4,4500;3,1800;Kg;Sim;6;;;P;;S;-19,9460;32.02;https://www.vendus.pt/foto/08d39cf25b2074f6dd1d3e45f2424218.jpg
+Pera Rocha 65/70;;;FRUTARIA;Frutas Ribeiros;PERARCP01.03;;;Não;2,4500;1,7500;Kg;Sim;6;;;P;;S;-8,9800;32.08;
+Alface Frisada;;;LEGUMES;Frutas Ribeiros;ALFACEF02.01;;;Não;0,9400;0,6800;Kg;Sim;6;;;P;ALI;S;-4,3300;30.41;https://www.vendus.pt/foto/9a040b4956579ad03f172376ef8508e9.jpg
+Cebola;;;LEGUMES;Frutas Ribeiros;CEBOLIP01.44;;;Não;1,9000;1,3900;Kg;Sim;6;;;P;ALI;S;-21,4150;28.95;https://www.vendus.pt/foto/7774bbe3f9e9031600e42d50625bed34.png
+Abobora;;;LEGUMES;Frutas Ribeiros;ABOBARA01.01;;;Não;1,1713;0,8800;Kg;Sim;6;;;P;ALI;S;2,8500;25.57;https://www.vendus.pt/foto/3091902739b2feb850dedf2b021561aa.jpg
+Batata Doce Nacional;;;LEGUMES;Frutas Ribeiros;BATADPT01.02;;;Não;1,3642;0,9900;Kg;Sim;6;;;P;ALI;S;-6,9350;30.00;https://www.vendus.pt/foto/a578f870942775dc40010ecc2e01116f.png
+Kiwi Nacional  30/33;;;FRUTARIA;Frutas Ribeiros;VKIW79-24030133;;;Não;2,1359;1,5500;Kg;Sim;6;;;P;;S;-16,6300;30.00;https://www.vendus.pt/foto/5e772c582b07467a33823bf56e1f778c.jpg
+Brócolo imp.;;;LEGUMES;Frutas Ribeiros;VBRO80-2403012;;;Não;1,9300;1,4000;Kg;Sim;6;;;P;ALI;S;-7,4950;30.05;https://www.vendus.pt/foto/bb8715b839293d082591d014fe168332.jpg
+Couve Flor Nac.;;;LEGUMES;Frutas Ribeiros;VCOU81-24030185;;;Não;1,9900;1,4800;Kg;Sim;6;;;P;ALI;S;-17,2000;26.85;https://www.vendus.pt/foto/9a41b52a3a32b614ab6c96a601e7395f.jpg
+Feijão Verde Imp;;;LEGUMES;Frutas Ribeiros;VFEI82-24030160;;;Não;4,1064;2,9800;Kg;Sim;6;;;P;ALI;S;-9,1300;30.00;https://www.vendus.pt/foto/be4cd58bf239f33adf022b1db913f39b.jpg
+Pimento Verde Imp.;;;LEGUMES;Frutas Ribeiros;VPIM83-24030177;;;Não;2,8938;2,1000;Kg;Sim;6;;;P;ALI;S;-2,0150;30.00;https://www.vendus.pt/foto/60a4401cb5c15bcf70c5ac443c5f7658.png
+Pimento Vermelho Imp.;;;LEGUMES;Frutas Ribeiros;VPIM84-24030163;;;Não;2,5493;1,8500;Kg;Sim;6;;;P;ALI;S;-7,0200;30.00;https://www.vendus.pt/foto/fe0f22c53fed96550005b80e30d2c40e.png
+Couve Coração;;;LEGUMES;Frutas Ribeiros;VCOU85-24030130;;;Não;0,7855;0,5700;Kg;Sim;6;;;P;;S;-54,0600;30.01;https://www.vendus.pt/foto/4abed493ccd803e1f124a239a7606587.png
+Couve Penca;;;LEGUMES;Frutas Ribeiros;VCOU86-24030133;;;Não;1,0748;0,7800;Kg;Sim;6;;;P;ALI;S;-21,9050;30.00;https://www.vendus.pt/foto/c31de7cf4a7ce68f109a25d24f5431a4.jpg
+Alho Francês;;;LEGUMES;Frutas Ribeiros;VALH87-24030183;;;Não;1,8603;1,3500;Kg;Sim;6;;;P;ALI;S;-1,9100;30.00;https://www.vendus.pt/foto/ec194c5fb7836178424b5d4a16b5f937.jpg
+Curgete  Imp.;;;LEGUMES;Frutas Ribeiros;VCUR88-24030171;;;Não;1,3642;0,9900;Kg;Sim;6;;;P;ALI;S;-16,3950;30.00;https://www.vendus.pt/foto/333669e872c2cf66402b4b3f8bab472c.jpg
+Pepino Imp.;;;LEGUMES;Frutas Ribeiros;VPEP89-24030124;;;Não;1,5158;1,1000;Kg;Sim;6;;;P;;S;-3,9450;30.00;https://www.vendus.pt/foto/9d5347316d4f71d5d1c0f1c12ceda91e.jpeg
+Tomate coração de Boi;;;LEGUMES;Frutas Ribeiros;VTOM90-24030153;;;Não;2,4804;1,8000;Kg;Sim;6;;;P;ALI;S;-12,4950;30.00;https://www.vendus.pt/foto/4d9a995f6dcb429e1d77ca97c3255ee6.png
+Tomate Chucha Imp.;;;LEGUMES;Frutas Ribeiros;VTOM91-24030141;;;Não;1,8603;1,3500;Kg;Sim;6;;;P;;S;-10,4600;30.00;https://www.vendus.pt/foto/89234b82ef3aa718f174ed5357e7ede3.png
+Tomate Liso;;;LEGUMES;Frutas Ribeiros;VTOM92-24030184;;;Não;1,3000;0,9500;Kg;Sim;6;;;P;;S;-19,6690;29.10;https://www.vendus.pt/foto/ede94497075dedf616618741baa5925c.jpg
+Alho Seco;;;LEGUMES;Frutas Ribeiros;VALH93-24030129;;;Não;5,2500;3,8000;Kg;Sim;6;;;P;ALI;S;-6,8650;30.34;https://www.vendus.pt/foto/576b9d9e7da35ca5fbd08c9bfdd4e076.jpg
+Batata Branca Lavada;;;LEGUMES;Frutas Ribeiros;VBAT94-24030179;;;Não;0,8100;0,5600;Kg;Sim;6;;;P;ALI;S;12,5050;36.46;https://www.vendus.pt/foto/e0476495e7f1d1a085499224f39e4fce.jpg
+Batata Vermelha Lavada;;;LEGUMES;Frutas Ribeiros;VBAT95-24030173;;;Não;0,8100;0,6000;Kg;Sim;6;;;P;ALI;S;20,0000;27.36;https://www.vendus.pt/foto/76c97ca6b9b774d1f276e86f95b553ff.jpg
+Batata Vermelha Miúda Lavada;;;LEGUMES;Frutas Ribeiros;VBAT96-24030178;;;Não;1,1437;0,8300;Kg;Sim;6;;;P;ALI;S;-12,9950;30.00;https://www.vendus.pt/foto/76c9aec2054dbc33ee429a3da18eaeb8.jpg
+Cebola Media;;;LEGUMES;Frutas Ribeiros;VCEB97-24030190;;;Não;1,0335;0,7500;Kg;Sim;6;;;P;ALI;S;-51,1850;30.00;https://www.vendus.pt/foto/f8d67936eeb1474603cf9655851640c5.jpeg
+Cenoura;;;LEGUMES;Frutas Ribeiros;VCEN100-24030198;;;Não;0,9508;0,6900;Kg;Sim;6;;;P;ALI;S;-22,3550;30.00;https://www.vendus.pt/foto/e7b23b69291b13f979dae863022a63d6.jpg
+Gás Normal;;;UTILITARIOS;Rubis;VGAS99-2403019;;;Não;31,0000;21,0000;Uni;Sim;23;;;P;;S;-5,0000;20.02;https://www.vendus.pt/foto/cd02c61d9e9620db9d150f0b6f06c6a9.png
+Gás Industrial;;;UTILITARIOS;Rubis;VGAS100-24030167;;;Não;31,0001;2,0000;Uni;Sim;23;;;P;;S;0,0000;1,160.17;https://www.vendus.pt/foto/af37c52bb46fb645a2e54838ddf1f271.png
+Cacetinho Integral;;;PADARIA;Santos;VCAC101-24030139;;;Não;0,1500;0,1000;Uni;Sim;6;;;P;;S;-55,0000;41.51;https://www.vendus.pt/foto/b799da483d007bc007521a7d4f80591f.jpg
+Broa de Molhadinha;;;PADARIA;Santos;VBRO102-24030176;8480000145772;;Sim;2,3000;2,0140;Kg;Sim;6;;;P;ALI;S;-98,2850;7.74;https://www.vendus.pt/foto/9fc6d930d1a3a90a102e5cd26d0e1534.jpg
+Broa de Mistura;;;PADARIA;Odisseia;VBRO103-24030172;8480000145772;;Sim;1,2000;0,6360;Kg;Sim;6;;;P;ALI;S;-6,7500;78.00;https://www.vendus.pt/foto/9fc6ade6b1e8c6ec0cc5a3ed3ec30e58.jpg
+Padornelo;;;PADARIA;Padaria Coimbra;VPAD104-24030193;;;Não;0,4500;0,3500;Uni;Sim;6;;;P;;S;-50,0000;21.29;https://www.vendus.pt/foto/095b70e4e1d0ebc688fdad04af34bf94.jpg
+Biquinha;;;PADARIA;Midouro;VBRO105-2403019;;;Não;0,1500;0,1250;Uni;Sim;6;;;P;;S;-262,0000;13.21;https://www.vendus.pt/foto/7733b2954cbe0b9b2214bf25c83305a5.png
+Pão Molete;;;PADARIA;Odisseia;VPAO106-24030155;;;Não;0,1500;0,1325;Uni;Sim;6;;;P;;S;-2801,0000;6.80;https://www.vendus.pt/foto/5ac5594c8d29b7cb9885486ddad8a85a.jpg
+Saca Branca;;;UTILITARIOS;;VSAC107-24030128;;;Não;0,0953;0,0500;Uni;Sim;23;;;P;;S;355,0000;54.96;
+Alheira de Mirandela;;;ENCHIDOS;Amil;VALH108-24030150;2900756002045;;Não;6,9777;4,7500;Kg;Sim;13;;;P;ALI;S;13,9180;30.00;https://www.vendus.pt/foto/49cba56f4e91e72366c620590c92b46d.jpg
+Chouriço de Colorau;;;ENCHIDOS;Telbac;VCHO109-24030197;2901050002588;;Não;5,5166;3,4500;Kg;Sim;23;;;P;ALI;S;1,5200;30.00;
+Chouriço de Vinho;;;ENCHIDOS;Telbac;VCHO110-2403014;2901060002448;;Não;5,3407;3,3400;Kg;Sim;23;;;P;ALI;S;2,9740;30.00;
+Bacon Fumado;;;ENCHIDOS;Telbac;VBAC111-24030197;2901316002802;;Não;11,9925;7,5000;Kg;Sim;23;;;P;ALI;S;0,6350;30.00;
+Chourição Colorão;;;ENCHIDOS;Telbac;VCHO112-24030147;2975220013605;;Não;6,3320;3,9600;Kg;Sim;23;;;P;ALI;S;-0,6300;30.00;
+Fiambre Perna;;;FIAMBRE | QUEIJO;Seara;VFIA113-24030140;2927889038048;;Não;6,5900;4,7000;Kg;Sim;6;;;P;ALI;S;-12,8360;32.28;
+Salpicão do Cachaço;;;ENCHIDOS;Fumeiros Ribeiro;VSAL114-24030153;2900009016409;;Não;19,1880;12,0000;Kg;Sim;23;;;P;ALI;S;1,2300;30.00;
+Atum conserva Óleo de Girassol;;;CONSERVAS;Lucky;VATU115-24030153;8410131854335;;Não;0,7579;0,5500;Uni;Sim;6;;;P;ALI;S;0,0000;30.00;https://www.vendus.pt/foto/3f4758fe1304253fc8243349b45ca708.jpg
+Sardinha conserva Tomate;;;CONSERVAS;Rianxeira;VSAR116-24030165;8410131019758;;Não;1,1713;0,8500;Uni;Sim;6;;;P;ALI;S;23,0000;30.00;
+Sardinha em Azeite;;;CONSERVAS;Rianxeira;VSAR117-24030189;8410131110042;;Não;1,1713;0,8500;Uni;Sim;6;;;P;ALI;S;21,0000;30.00;
+Batata Pre-Frita 1 kg;;;CONGELADOS LEGUMES;Mydibel;VBAT118-24030150;5413081100074;;Não;2,8782;1,8000;Uni;Sim;23;;;P;ALI;S;7,0000;30.00;
+Brócolos 300 g;;;CONGELADOS LEGUMES;Gelcampo;VBRO119-2403011;5602003000350;;Não;0,8500;0,6000;Uni;Sim;6;;;P;ALI;S;5,0000;33.65;
+Cenoura Baby;;;CONGELADOS LEGUMES;Gelcampo;VCEN120-24030164;;;Não;0,7500;0,5300;Uni;Sim;6;;;P;ALI;S;5,0000;33.50;
+Grelos 1 kg;;;CONGELADOS LEGUMES;Frip;VGRE121-24030158;5601315210020;;Não;2,9917;2,2400;Kg;Sim;6;;;P;ALI;S;10,0000;26.00;
+Macedonia 300g;;;CONGELADOS LEGUMES;Gelcampo;VMAC122-24030115;5602003000572;;Não;0,4900;0,3500;Uni;Sim;6;;;P;ALI;S;0,0000;32.08;
+Ervilhas 400g;;;CONGELADOS LEGUMES;Frip;VERV123-24030179;5601315010019;;Não;0,8014;0,6300;Uni;Sim;6;;;P;ALI;S;8,0000;20.01;
+Peito de Frango p/ Forno;;;CONGELADOS CARNE;Fripozo;VPEI124-24030155;8420321074252;;Não;7,5909;4,7400;Uni;Sim;23;;;P;ALI;S;1,0000;30.20;
+Nuggets Frango;;;CONGELADOS CARNE;Fripozo;VNUG125-24030179;8420321692760;;Não;2,5900;1,6100;Uni;Sim;23;;;P;ALI;S;2,0000;30.79;
+Hamburgers Novilho;;;CONGELADOS CARNE;Pescanova;VHAM126-24030153;8410063010502;;Não;3,5300;2,5600;Uni;Sim;6;;;P;ALI;S;1,0000;30.09;
+Hamburgers de Frango 340g;;;CONGELADOS CARNE;Eurofrits;VHAM127-24030152;8427318356001;;Não;2,9500;1,8500;Uni;Sim;23;;;P;ALI;S;3,0000;29.64;
+Ameijoa Branca Viet.;;;CONGELADOS PEIXE;Greensea;VAME128-24030164;5605598810465;;Não;2,6900;1,9500;Uni;Sim;6;;;P;ALI;S;4,0000;30.14;
+Delicias Mar s/ gluten;;;CONGELADOS PEIXE;TELBAC;VDEL129-24030149;5601736910714;;Não;1,1300;0,8200;Uni;Sim;6;;;P;ALI;S;6,0000;30.00;
+Bolinhas de Alheira;;;CONGELADOS CARNE;Basmar;VBOL130-24030133;5606669253150;;Não;4,4500;2,7800;Uni;Sim;23;;;P;ALI;S;6,0000;30.14;
+Caprichos Mar 250g;;;CONGELADOS PEIXE;Basmar;Basmar 250g;5606669000020;;Não;1,9911;1,1400;Uni;Sim;23;;;P;ALI;S;6,0000;42.00;
+Pizza 4 Queijos;;;CONGELADOS CARNE;Fripozo;VPIZ132-24030114;8420321679112;;Não;3,6500;2,2800;Uni;Sim;23;;;P;ALI;S;5,0000;30.15;
+Pizza Queijo/Fiambre;;;CONGELADOS CARNE;Fripozo;VPIZ133-24030126;8420321679211;;Não;3,6500;2,2800;Uni;Sim;23;;;P;ALI;S;3,0000;30.15;
+Lasanhas Bolonhesa 300g;;;CONGELADOS CARNE;Fripozo;VLAS134-24030179;8420321692333;;Não;2,2900;1,4300;Uni;Sim;23;;;P;ALI;S;4,0000;30.20;
+Bacalhau c/ Natas;;;CONGELADOS CARNE;Pascoal;VBAC135-24030197;5602312501050;;Não;3,9500;2,4700;Uni;Sim;23;;;P;ALI;S;3,0000;30.02;
+Douradinhos Pescada s/gluten;;;CONGELADOS PEIXE;Pescanova;VDOU136-24030121;8410063087887;;Não;3,1900;2,3200;Uni;Sim;6;;;P;ALI;S;10,0000;29.72;
+Iogurte Aroma Banana  Agros;;;IOGURTES;Agros;4x120g;5603722517693;;Não;0,8957;0,6500;Uni;Sim;6;;;P;ALI;S;1,0000;30.00;
+Iogurte Aroma Ananás 4x120g Duplicado;;;IOGURTES;Agros;VIOG138-24030255;5603722517679;;Não;0,8957;0,6500;Uni;Sim;6;;;P;ALI;S;-2,0000;30.00;
+Iogurte Aroma Morango 4x120g;;;IOGURTES;Agros;Agros M. 4 x120g;5603722517730;;Não;0,8957;0,6500;Uni;Sim;6;;;P;ALI;S;-4,0000;30.00;
+Iogurte Aroma Natural 4x120g;;;IOGURTES;Agros;Agros N. 4 x120g;5603722518362;;Não;1,1989;0,8700;Uni;Sim;6;;;P;ALI;S;-1,0000;30.00;
+Iogurte Aroma Coco 4x120g;;;IOGURTES;Agros;Agros C. 4 x120g;5603722517716;;Não;0,8957;0,6500;Uni;Sim;6;;;P;ALI;S;-4,0000;30.00;
+Iogurte Aroma Tutti Fruti 4x120g;;;IOGURTES;Agros;Agros T. 4 x120g;5603722517754;;Não;0,8957;0,6500;Uni;Sim;6;;;P;ALI;S;-5,0000;30.00;
+Iogurte Liq. Morango 4x;;;IOGURTES;Mimosa;VIOG143-24030281;5603722521539;;Não;1,4000;1,1500;Uni;Sim;6;;;P;ALI;S;-3,0000;14.85;
+Iogurte Liq. Ananas 4x;;;IOGURTES;Agros;Agros A. 4 x120g;5603722521553;;Não;1,4019;1,1500;Uni;Sim;6;;;P;ALI;S;-1,0000;15.00;
+Iogurte Liq. Frutos Tropicais 4x;;;IOGURTES;Agros;Agros  4 x;5603722521560;;Não;1,4000;1,1500;Uni;Sim;6;;;P;ALI;S;-2,0000;14.85;
+Coca Cola  1.5 L;;;BEBIDAS S/ ALCOOL;Socorama;Coca Cola  1.5 L;5449000051981;;Não;1,9900;1,3600;Uni;Sim;23;;;P;;S;40,0000;18.96;https://www.vendus.pt/foto/fc829f3b7c31368d98fb8642b5a6f1ee.jpg
+Coca Cola  Lata;;;BEBIDAS S/ ALCOOL;Socorama;VCOC147-24030215;5000112541007;;Não;0,9900;0,6200;Uni;Sim;23;;;P;;S;26,0000;29.82;https://www.vendus.pt/foto/70fc28a397da1409deee54ad49e41589.jpg
+Coca Cola ZERO;;;BEBIDAS S/ ALCOOL;Socorama;VCOC148-24030210;5449000133328;;Não;1,4981;1,1600;Uni;Sim;23;;;P;;S;8,0000;5.00;https://www.vendus.pt/foto/65996e2a5cd2c3dbf1e3b639a07ceb39.jpg
+Sumol Lata Laranja;;;BEBIDAS S/ ALCOOL;Socorama;VSUM149-24030237;5601045000434;;Não;0,7852;0,5410;Uni;Sim;23;;;P;;S;22,0000;18.00;
+Sumol lata Laranja;;;BEBIDAS S/ ALCOOL;Sumol;VSUM150-24030244;httpsÇ--msha.ke-sumol-;;Não;0,0000;0,0000;Kg;Sim;23;;;P;;S;0;;
+Luso 0.50 cl;;;BEBIDAS S/ ALCOOL;Luso;VLUS151-24030370;5601163100313;;Não;0,3530;0,2540;Kg;Sim;23;;;P;;S;19,0000;12.99;
+Sumol Laranja 1.5 L;;;BEBIDAS S/ ALCOOL;Sumol;VSUM152-24030391;5601045000427;;Não;1,5006;1,2200;Uni;Sim;23;;;P;;S;-6,0000;0.00;
+Seven Up 1.5 L;;;BEBIDAS S/ ALCOOL;Seven Up;VSEV153-24030388;5601045108208;;Não;1,5006;1,2200;Uni;Sim;23;;;P;;S;0;0.00;
+Sumol Ananas 1.50 L;;;BEBIDAS S/ ALCOOL;Sumol;VSUM154-24030329;5601045000137;;Não;1,5006;1,2200;Uni;Sim;23;;;P;;S;-5,0000;0.00;
+Massa  Esparguete 500g  Puríssimo;;;MASSA;Puríssimo;VMAS155-24030382;5600205111645;;Não;0,7992;0,5800;Uni;Sim;6;;;P;ALI;S;24,0000;29.99;
+Massa Macarrnet Riscado 500g Puríssimo;;;MASSA;Puríssimo;VMAS156-24030336;5600205111843;;Não;0,9095;0,6600;Uni;Sim;6;;;P;ALI;S;19,0000;30.00;
+Massa Espirais 500 g Puríssimo;;;MASSA;Puríssimo;VMAS157-24030337;5600205111850;;Não;0,9095;0,6600;Uni;Sim;6;;;P;ALI;S;-3,0000;30.00;
+Polpa Tomate 1 L Guloso;;;MERCEARIA;Guloso;VPOL158-24030315;5601019012418;;Não;2,3513;1,6200;Uni;Sim;23;;;P;ALI;S;4,0000;18.00;
+Polpa Tomate 500 g Compal;;;MERCEARIA;Compal 1;VPOL159-24030376;5601151862155;;Não;1,5860;1,0700;Uni;Sim;23;;;P;ALI;S;5,0000;20.51;
+Arroz Carolino;;;ARROZ;Louro;LOURO emb. 1 kg;5601537332739;;Não;1,7501;1,2700;Uni;Sim;6;;;P;ALI;S;-2,0000;30.00;
+Arroz Agulha 1 kg Louro;;;ARROZ;Louro;LOURO  emb. 1 kg;5601537121135;;Não;1,2953;0,9400;Uni;Sim;6;;;P;ALI;S;7,0000;30.00;
+Sal Grosso 1 kg Amanhecer;;;MERCEARIA;Amanhecer 1;VSAL162-24030324;5601227017458;;Não;0,3498;0,2200;Uni;Sim;6;;;P;ALI;S;12,0000;50.00;
+Sal Fino 250 g Amanhecer;;;MERCEARIA;Amanhecer 1;VSAL163-24030374;5601227018684;;Não;0,3908;0,2950;Uni;Sim;6;;;P;ALI;S;-6,0000;24.98;
+Azeite Subtil 500 ml Gallo;;;AZEITE | MOLHOS;Gallo;Gallo €11,98 /lt;5601252106554;;Não;5,9900;4,4900;Uni;Sim;6;;;P;ALI;S;13,0000;25.86;https://www.vendus.pt/foto/8c01e33a44fcf8cc71911d8afa55b66e.jpg
+Azeite Virgem 750 ml Oliveira da Serra;;;AZEITE | MOLHOS;Oliveira da Serra;Oliveira da Serra;5601024134471;;Não;7,3900;5,3000;Uni;Sim;6;;;P;ALI;S;11,0000;31.54;https://www.vendus.pt/foto/88efbc315c29bf3920eb8d7579ada3b3.jpg
+Óleo Alimentar;;;AZEITE | MOLHOS;Telbac;Tempus D´Ouro emb 1 L;5600301907098;;Não;2,3900;1,6200;Uni;Sim;13;;;P;ALI;S;11,0000;30.56;
+Óleo Alimentar 1 L Elou;;;AZEITE | MOLHOS;Elou;Elou 1 L;5601219160520;;Não;1,7900;1,1700;Uni;Sim;13;;;P;ALI;S;10,0000;35.39;
+Vinagre  Vinho  750 ml Puríssimo;;;AZEITE | MOLHOS;Puríssimo;Puríssimo;5600205111577;;Não;0,7500;0,4600;Uni;Sim;23;;;P;ALI;S;14,0000;32.56;https://www.vendus.pt/foto/e4bd627ec347a023548ab19ea78adb88.jpg
+Guardanapos papel 30X30 Pampilar;;;COZINHA;pampilar;VGUA169-24030313;5609246150484;;Não;0,5000;0,3100;Uni;Sim;23;;;P;;S;-22,0000;31.13;
+Guardanapos papel 32X32 Pampilar Duplicado;;;COZINHA;pampilar;VGUA170-24030394;5609246620284;;Não;1,2532;0,7960;Uni;Sim;23;;;P;;S;-5,0000;28.00;
+Papel Higienico 12 rolos Pampilar;;;WC;pampilar;VPAP171-24030339;5609246960120;;Não;1,6421;0,8900;Uni;Sim;23;;;P;;S;4,0000;50.00;
+Papel Higienico 6 rolos  Pampilar;;;WC;pampilar;VPAP172-24030368;5609246116060;;Não;2,8622;1,7900;Uni;Sim;23;;;P;;S;5,0000;30.00;
+Rolos de Cozinha 4 rolos;;;COZINHA;Puríssimo;VROL173-24030349;5600817022643;;Não;1,2472;0,7800;Uni;Sim;23;;;P;;S;4,0000;30.00;
+Cerelac Simples 500 g;;;MATINAIS;Ceralac;VCER174-24030376;7361766;;Não;3,9936;2,7500;Uni;Sim;6;;;P;ALI;S;6,0000;37.00;
+Cereais Chocomax 300 g Nacional;;;MATINAIS;Nacional;VCER175-24030367;5601066600705;;Não;1,6942;0,9700;Uni;Sim;23;;;P;ALI;S;1,0000;42.00;
+Pack 6 ovos M;;;LATICINIOS;Uniovo;VPAC176-24030317;5604113060224;;Não;1,3928;0,9000;Uni;Sim;6;;;P;ALI;S;-7,0000;46.00;
+Açucar  Branco 1 kg Rar;;;FARINHA | AÇUCAR;Rar;1 kg Rar;5602711001311;;Não;1,5900;1,0200;Uni;Sim;23;;;P;ALI;S;2,0000;26.73;
+Açucar Amarelo;;;FARINHA | AÇUCAR;Rar;1 kg Rar;5602711001625;;Não;1,9370;1,2400;Uni;Sim;23;;;P;ALI;S;10,0000;27.00;
+Cereais Starz 300 g Nacional;;;MATINAIS;Nacional;VCER179-24030373;5601066600736;;Não;1,6926;0,9900;Uni;Sim;23;;;P;ALI;S;3,0000;39.00;
+Cereais + Fibra 300 g Nacional;;;MATINAIS;Nacional;VCER180-24030366;5601066601801;;Não;1,9944;1,1500;Uni;Sim;23;;;P;ALI;S;3,0000;41.00;
+Cereais + Linha 300 g Nacional;;;MATINAIS;Nacional;VCER181-24030365;5601066601825;;Não;1,9944;1,1500;Uni;Sim;23;;;P;ALI;S;3,0000;41.00;
+Cevada Pensal 200 g Nestlé;;;MATINAIS;Nestlé;VCEV182-24030344;5601001347207;;Não;2,8252;2,2300;Uni;Sim;23;;;P;ALI;S;4,0000;3.00;
+Gel de Banho 650 ml Nutritivo Lactovit;;;HIGIENE;Lactovit;VGEL183-24030387;8411660350107;;Não;2,8894;1,6900;Uni;Sim;23;;;P;;S;4,0000;39.00;
+Gel de Banho 650 ml Fruit Lactovit;;;HIGIENE;Lactovit;VGEL184-2403034;8411135351929;;Não;2,8894;1,6900;Uni;Sim;23;;;P;;S;4,0000;39.00;
+Champo Strong Power 250 ml Nivea;;;HIGIENE;Nivea;VCHA185-24030319;4005808255818;;Não;2,8930;1,6800;Uni;Sim;23;;;P;;S;5,0000;40.00;
+Amaciador Óleo de Aragão 200 ml Fructis;;;HIGIENE;Fructis;VAMA186-2403037;3600540016010;;Não;3,2484;1,9000;Uni;Sim;23;;;P;;S;5,0000;39.00;
+Gel de Banho Clean Comfort 400 ml Dove;;;HIGIENE;Dove;VGEL187-24030371;8720181313448;;Não;3,6869;2,1800;Uni;Sim;23;;;P;;S;6,0000;37.50;
+Gel de Banho Leite & Mel 750 ml Corine de Farme;;;HIGIENE;Corine de Farme;VGEL188-24030355;3468080410558;;Não;3,0996;1,6800;Uni;Sim;23;;;P;;S;4,0000;50.00;
+Gel de Banho Aloe Vera 750 ml Corine de Farme;;;HIGIENE;Corine de Farme;VGEL189-24030397;3468080410534;;Não;3,0996;1,6800;Uni;Sim;23;;;P;;S;4,0000;50.00;
+Sabonete Liquido Deep cleansing 250 ml Dove;;;HIGIENE;Dove;VSAB190-24030370;8720181049361;;Não;2,3867;1,6800;Uni;Sim;23;;;P;;S;6,0000;15.50;
+Champô Frescura Diaria 360 ml. Linic;;;HIGIENE;Linic;VCHA191-24030346;;;Não;4,9400;0,0000;Uni;Sim;23;;;P;;S;2,0000;100;
+Champô Eficácia Ativa 360 ml. Linic;;;HIGIENE;Linic;VCHA192-24030364;8710847961151;;Não;4,9400;0,0000;Uni;Sim;23;;;P;;S;4,0000;100;
+Champô Deep 250 ml. Nivea;;;HIGIENE;Nivea;VCHA193-24030338;4005900499943;;Não;3,0996;1,6800;Uni;Sim;23;;;P;;S;6,0000;50.00;
+Creme Lata 75 ml. Nivea;;;HIGIENE;Nivea;VCRE194-24030383;4005808801039;;Não;1,8509;1,1400;Uni;Sim;23;;;P;;S;4,0000;32.00;
+Champô Ultimate Repair 750 ml. Gliss;;;HIGIENE;Gliss;VCHA195-24030379;8410436378024;;Não;3,9022;2,2500;Uni;Sim;23;;;P;;S;6,0000;41.00;
+Champô Color Perfector 250 ml. Gliss;;;HIGIENE;Gliss;VCHA196-24030392;8410436235549;;Não;3,5977;2,2500;Uni;Sim;23;;;P;;S;-1,0000;30.00;
+Amaciador Color Perfector 200 ml. Gliss;;;HIGIENE;Gliss;VAMA197-24030349;8410436165495;;Não;2,7023;1,6900;Uni;Sim;23;;;P;;S;6,0000;30.00;
+Pasta de dentes Anti-Tartaro 75 ml. Colgate;;;HIGIENE;Colgate;VPAS198-24030347;8718951567580;;Não;1,3355;0,8900;Uni;Sim;23;;;P;;S;11,0000;22.00;
+Pasta de dentes Fresh 75 ml. Colgate;;;HIGIENE;Colgate;VPAS199-2403030;8410372182303;;Não;1,4888;0,8900;Uni;Sim;23;;;P;;S;23,0000;36.00;
+Pasta de dentes Caries 50 ml. Colgate;;;HIGIENE;Colgate;VPAS200-24030357;8718951558052;;Não;1,1513;0,6500;Uni;Sim;23;;;P;;S;-4,0000;44.00;
+Gel de Banho Classic 1 L.  Skyn;;;HIGIENE;Skyn;VGEL201-24030364;5600387496271;;Não;1,1033;0,6900;Uni;Sim;23;;;P;;S;5,0000;30.00;
+Farinha Fina Culinaria 1 kg. Milaneza;;;FARINHA | AÇUCAR;Milaneza;1 kg. Milaneza;5601286297792;;Não;1,1900;0,8400;Uni;Sim;6;;;P;ALI;S;6,0000;33.65;
+Café Solúvel Classic 100 g. Delta;;;CAFES;Delta;VCAF203-24030393;5609060006608;;Não;3,6899;2,2900;Uni;Sim;23;;;P;;S;11,0000;31.00;
+Pão Ralado 100 g. Puríssimo;;;MERCEARIA;Puríssimo;VPAO204-24030342;5600817021752;;Não;0,4717;0,2950;Uni;Sim;23;;;P;ALI;S;18,0000;30.00;
+Desodorizante Rollon Sensitive 50 ml Sanex;;;HIGIENE;Sanex;VDES205-24030332;8718951463387;;Não;1,9904;1,2400;Uni;Sim;23;;;P;;S;6,0000;30.50;
+Desodorizante Rollon Men 50 ml Sanex;;;HIGIENE;Sanex;VDES206-24030313;8718951463530;;Não;1,9904;1,2400;Uni;Sim;23;;;P;;S;5,0000;30.50;
+Desodorizante Rollon Invisible 50 ml Sanex;;;HIGIENE;Sanex;VDES207-24030371;8718951463295;;Não;1,9904;1,2400;Uni;Sim;23;;;P;;S;-3,0000;30.50;
+Ovos Avulso;;;LEGUMES;;VOVO208-24030362;;;Não;0,2205;0,1600;Uni;Sim;6;;;P;;S;-174,0000;30.01;https://www.vendus.pt/foto/0048ec75c93989e379a8980308e6c1da.png
+Cotonetes 200 und. Rio Bravo;;;HIGIENE;Rio Bravo;VCOT209-24030346;5601219752091;;Não;0,7166;0,5200;Kg;Sim;6;;;P;;S;-3,0000;30.01;
+Sabonete Olive & Milk 90 g. Palmolive;;;HIGIENE;Palmolive;VSAB210-24030346;8714789700045;;Não;0,6888;0,4000;Kg;Sim;23;;;P;;S;13,0000;40.00;
+Sabonete Hidratante 90 g. Patti;;;HIGIENE;Palmolive;VSAB211-24030343;5601135063240;;Não;0,9914;0,6200;Uni;Sim;23;;;P;;S;-2,0000;30.00;
+Sabonete Liq. Nutritivo 300 ml. Paslmolive;;;HIGIENE;Palmolive;VSAB212-24030394;8718951561267;;Não;2,3468;1,4400;Uni;Sim;23;;;P;;S;12,0000;32.50;
+Travesseiros Choc. 3 und. Bimbo;;;MATINAIS;Bimbo;VTRA213-24030399;5601027957992;;Não;1,8900;1,2800;Uni;Sim;23;;;P;ALI;S;-2,0000;20.05;
+Pão Forma Familiar 700 g. Bimbo;;;MATINAIS;Bimbo;VPAO214-24030373;8412600027233;;Não;2,5866;2,3900;Uni;Sim;6;;;P;ALI;S;-1,0000;2.10;
+Pão Forma Familiar s/ Côdea Bimbo;;;MATINAIS;Bimbo;VPAO215-24030318;8412600070994;;Não;2,1030;1,6000;Uni;Sim;6;;;P;ALI;S;-3,0000;24.00;
+Pão de Burger 4 und. Bimbo;;;PADARIA;Bimbo;VPAO216-24030325;8412600450079;;Não;1,6409;1,2900;Uni;Sim;6;;;P;ALI;S;0;20.00;
+Pão de Cachorro Bimbo;;;PADARIA;Bimbo;VPAO217-24030327;8412600450024;;Não;1,8921;1,7500;Uni;Sim;6;;;P;ALI;S;0;2.00;
+Donuts Glacé;;;SNACKS;Bimbo;VDON218-24030362;8410022000278;;Não;1,3000;0,8900;Uni;Sim;23;;;P;;S;-3,0000;18.75;
+Donuts Bombón;;;SNACKS;Bimbo;VDON219-24030390;8410022000285;;Não;1,6000;1,0500;Uni;Sim;23;;;P;;S;-3,0000;23.89;
+Red Fish n. 4 Hig.;;;CONGELADOS PEIXE;D. Afonso;PL - 5.10€ kg |  PLE - 6,37€ kg;2904921003424;;Não;6,3700;4,6200;Kg;Sim;6;;;P;;S;3,5410;30.07;
+Filete Pescada Afri. Sul;;;CONGELADOS PEIXE;D. Afonso;PL - 8.81€ kg |  PLE - 11€ kg;2989736001490;;Não;10,9998;7,9800;Kg;Sim;6;;;P;;S;4,4480;30.04;
+Filete Pescada Afri. Sul Emb. 400g;;;CONGELADOS PEIXE;D. Afonso;VFIL222-24030387;5603707503413;;Não;4,2167;3,0600;Uni;Sim;6;;;P;;S;4,0000;30.00;
+Pescada Nº4 p/ Cozer;;;CONGELADOS PEIXE;D. Afonso;PL - 6.35€ kg | PLE- 7.95€ kg;2954395002287;;Não;7,9500;5,7600;Kg;Sim;6;;;P;;S;3,2080;30.21;
+Pescada Nº4 p/ Fritar;;;CONGELADOS PEIXE;D. Afonso;PL - 3.36€ kg | PLE - 7.95€ kg;2954396001494;;Não;7,9464;5,7600;Kg;Sim;6;;;P;;S;5,7440;30.15;
+Pescada Nº6 Arg. Hig.;;;CONGELADOS PEIXE;D. Afonso;PL - 3.38€ kg | PLE - 4.72€ kg;2904919002781;;Não;4,7200;3,4200;Kg;Sim;6;;;P;;S;4,9590;30.20;
+Tentáculos Pota Granel;;;GRANEL;D. Afonso;VTEN226-24030319;;;Não;4,2994;3,1200;Kg;Sim;6;;;P;;S;-0,3000;30.00;
+Mariscada Emb. 400g. s/ Glúten. Brasmar;;;CONGELADOS PEIXE;Brasmar;VMAR227-24030314;5606669247135;;Não;3,4905;2,2100;Uni;Sim;6;;;P;;S;4,0000;49.00;
+Mariscada Emb. 800g. s/ Glúten. Brasmar;;;CONGELADOS PEIXE;Brasmar;VMAR228-24030389;5606669246152;;Não;7,9852;5,0900;Uni;Sim;6;;;P;;S;3,0000;48.00;
+Polvo Emb. 600g. Reymar;;;CONGELADOS PEIXE;Reymar;VPOL229-24030396;5602772003477;;Não;8,9881;6,1400;Uni;Sim;6;;;P;;S;5,0000;38.10;
+Ervilha Emb. 400g. Agrilusa;;;CONGELADOS LEGUMES;Agrilusa;VERV230-2403036;5601569010018;;Não;0,7992;0,5800;Uni;Sim;6;;;P;;S;13,0000;29.99;
+Bacalhau Cong. Postinhas 700g Reymar;;;CONGELADOS PEIXE;Reymar;VBAR231-24030339;5602772402843;;Não;3,9860;2,8000;Uni;Sim;6;;;P;ALI;S;4,0000;34.30;
+Moelas Frango Emb. 1Kg. Seara;;;CONGELADOS CARNE;Seara;VMOE232-24030384;7894904044900;;Não;2,7284;1,9800;Uni;Sim;6;;;P;;S;6,0000;30.00;
+Bolinhos Bacalhau Emb. 400g. D. Afonso;;;CONGELADOS PEIXE;D. Afonso;VBOL233-24030377;5609522067284;;Não;4,7011;2,9400;Uni;Sim;23;;;P;;S;7,0000;30.00;
+Pastéis Bacalhau 10 und. D. Afonso;;;CONGELADOS PEIXE;D. Afonso;VPAS234-24030396;5606830067388;;Não;3,9938;2,4900;Uni;Sim;23;;;P;;S;0,0000;30.40;
+Rissóis Leitão 6 und. D. Afonso;;;CONGELADOS CARNE;D. Afonso;VRIS237-24030347;5606830067975;;Não;3,9929;2,4500;Uni;Sim;23;;;P;;S;5,0000;32.50;
+Rissóis Mistos 12 und. D. Afonso;;;CONGELADOS CARNE;D. Afonso;VRIS236-24030327;5606830067272;;Não;3,3949;2,1150;Uni;Sim;23;;;P;;S;5,0000;30.50;
+Rissóis Camarão Esp. 12 und. D. Afonso;;;CONGELADOS PEIXE;D. Afonso;VRIS237-24030339;5606830067241;;Não;3,7866;2,3500;Uni;Sim;23;;;P;;S;3,0000;31.00;
+Fêveras Panadas Pró-Lar;;;CONGELADOS CARNE;Pró-Lar;VFEB238-24030380;2996157003828;;Não;4,6851;2,9300;Uni;Sim;23;;;P;;S;2,9280;30.00;
+Rissóis Carne 12 und. D. Afonso;;;CONGELADOS CARNE;D. Afonso;VRIS239-24030367;5606830067210;;Não;3,4858;2,1800;Uni;Sim;23;;;P;;S;6,0000;30.00;
+Rissois de Frango 10 und. D. Afonso;;;CONGELADOS CARNE;D. Afonso;VRIS240-24030382;5609522067437;;Não;3,3547;2,0900;Uni;Sim;23;;;P;ALI;S;5,0000;30.50;
+Caprichos Alaska 250 g. Nós;;;CONGELADOS PEIXE;Nós;VCAP241-24030373;8423316010013;;Não;2,9946;1,8800;Uni;Sim;23;;;P;ALI;S;6,0000;29.50;
+Cenoura Baby 300g. Gelcampo;;;CONGELADOS LEGUMES;Gelcampo;VCEN242-24030390;5602003090757;;Não;0,7871;0,5500;Uni;Sim;6;;;P;ALI;S;3,0000;35.01;
+Água 6L Caramulo;;;BEBIDAS S/ ALCOOL;Caramulo;VAGU243-24030332;5600756819205;;Não;1,1900;0,7800;Uni;Sim;13;;;P;;S;0,0000;35.01;
+Joi Laranja1.5 L;;;BEBIDAS S/ ALCOOL;Joi;VJOI244-24030327;5601146230518;;Não;1,6919;1,0500;Uni;Sim;23;;;P;;S;6,0000;31.00;
+Areia p/ Gatos Perfumada 5 kg.   Rio Bravo;;;PET;Rio Bravo;VARE245-24030334;5601219790062;;Não;2,3917;1,4900;Uni;Sim;23;;;P;;S;0,0000;30.50;
+Água 6L Caramulo  Duplicado;;;BEBIDAS S/ ALCOOL;Caramulo;VAGU246-24030412;5600756819205;;Não;1,1458;0,7800;Uni;Sim;13;;;P;;S;-5,0000;30.00;
+Queijo Flamengo Nova Açores;;;FIAMBRE | QUEIJO;Nova Açores;VQUE247-24030460;;;Não;6,8900;5,0000;Kg;Sim;6;;;P;ALI;S;-7,5370;30.00;
+Leite Meio-Gordo UHT   Mimosa;;;LATICINIOS;Mimosa;emb. 6 x 1 lt    €99/lt;5601049132988;€99/lt;Não;5,9500;4,8000;Uni;Sim;6;;;P;ALI;S;-1,0000;16.94;
+Leite Meio-Gordo UHT  1 L. Mimosa;;;LATICINIOS;Mimosa;1 L. Mimosa;5601049132995;;Não;0,9900;0,8000;Uni;Sim;6;;;P;ALI;S;-5,0000;16.75;
+Leite M.G. UHT s/ Lactose 1 L.  N. Açores;;;LATICINIOS;Nova Açores;€1.25/lt;5601883002034;;Não;1,2500;0,9900;Uni;Sim;6;;;P;ALI;S;-12,0000;19.12;
+Leite Meio-Gordo UHT   Agros;;;LATICINIOS;Agros;emb. 6 x 1l    €95/lt;5603722519994;;Não;5,7000;4,7400;Uni;Sim;6;;;P;ALI;S;-5,0000;13.45;
+Bebida de Soja  1 L.  Amanhecer;;;LATICINIOS;Amanhecer 1;VLEI252-24030464;5601227023374;;Não;0,9500;0,8000;Uni;Sim;6;;;P;ALI;S;-3,0000;12.03;
+Leite Meio-Gordo UHT  1 L. Agros;;;LATICINIOS;Agros;Agros emb 1L;5601192102203;;Não;0,9500;0,7900;Uni;Sim;6;;;P;ALI;S;-13,0000;13.45;
+Compal Laranja | Tangerina  1 L.   Compal;;;BEBIDAS S/ ALCOOL;Compal 1;VCOM254-24030431;5601151966242;;Não;1,0500;0,8600;Uni;Sim;6;;;P;;S;-3,0000;15.18;
+Compal Banana  1 L.   Compal;;;BEBIDAS S/ ALCOOL;Compal 1;VCOM255-24030483;5601151966501;;Não;1,1000;0,8800;Uni;Sim;6;;;P;;S;-3,0000;17.92;
+Compal Pessego  1 L.   Compal;;;BEBIDAS S/ ALCOOL;Compal 1;VCOM256-24030434;5601151543313;;Não;1,1000;0,8800;Uni;Sim;6;;;P;;S;-3,0000;17.92;
+Compal Pera Rocha  1 L.   Compal;;;BEBIDAS S/ ALCOOL;Compal 1;VCOM257-24030497;5601151543306;;Não;1,1000;0,8800;Uni;Sim;6;;;P;;S;-3,0000;17.92;
+Compal Tutti Frutti  1 L.   Compal Duplicado;;;BEBIDAS S/ ALCOOL;Compal 1;VCOM258-24030428;5601151333457;;Não;1,1000;0,8800;Uni;Sim;6;;;P;;S;-3,0000;17.92;
+Flocos Cereais c/ Mel 300 gr   Nestum;;;MATINAIS;Nestlé;VFLO259-24030410;5601001228100;;Não;2,1900;1,3800;Uni;Sim;23;;;P;ALI;S;0;29.02;
+Chá de Cidreira 10 sq.  Tley;;;MATINAIS;Tley;VCHA260-24030424;5601408010155;;Não;0,7900;0,5400;Uni;Sim;6;;;P;;S;11,0000;38.02;
+Chá de Camomila 10 sq.  Tley;;;MATINAIS;Tley;VCHA261-24030495;5601408010131;;Não;0,7900;0,5400;Uni;Sim;6;;;P;;S;-5,0000;38.02;
+Chá de Tília 10 sq.  Tley;;;MATINAIS;Tley;VCHA262-24030468;5601408010100;;Não;0,7900;0,5400;Uni;Sim;6;;;P;;S;-1,0000;38.02;
+Chá Preto 10 sq.  Tley;;;MATINAIS;Tley;VCHA263-2403040;5601408000040;;Não;0,5900;0,4000;Uni;Sim;6;;;P;;S;0;39.15;
+Cápsulas Café Forte   Kaffa;;;CAFES;Kaffa;10 und.;5600802500200;;Não;1,7900;1,3300;Uni;Sim;23;;;P;;S;11,0000;9.42;
+Cápsulas Café Fortíssimo  Kaffa;;;CAFES;Kaffa;VCAP265-24030451;5600802500347;;Não;1,7900;1,3300;Uni;Sim;23;;;P;;S;-1,0000;9.42;
+Cápsulas Café Descafeinado  Kaffa;;;CAFES;Kaffa;VCAP266-24030463;5600802500231;;Não;1,7900;1,3300;Uni;Sim;23;;;P;;S;0;9.42;
+Cápsulas café Suave   Amanhecer;;;CAFES;Amanhecer 1;10 und.;5601227028058;;Não;1,7500;1,2900;Uni;Sim;23;;;P;;S;0;10.29;
+Cápsulas Descafeinado   Amanhecer;;;CAFES;Amanhecer 1;10 und;5601227028065;;Não;1,7500;1,2900;Uni;Sim;23;;;P;;S;0;10.29;
+Cápsulas Café Tradição   Amanhecer;;;CAFES;Amanhecer 1;VCAP269-24030429;5601227028041;;Não;1,7500;1,2900;Uni;Sim;23;;;P;;S;0;10.29;
+Cápsulas Café Robusto   Amanhecer;;;CAFES;Amanhecer 1;VCAP270-24030432;5601227036657;;Não;1,7500;1,2900;Uni;Sim;23;;;P;;S;0;10.29;
+Sabonete Dove;;;HIGIENE;Dove;2 x 90g;8720182265623;;Não;2,1000;1,2800;Uni;Sim;23;;;P;;S;-1,0000;33.38;
+Manteiga c/ Sal 250 g  Gresso;;;LATICINIOS;Gresso;VMAN272-24030483;5601018001642;;Não;2,1900;1,8400;Uni;Sim;6;;;P;;S;-3,0000;12.28;
+Queijo Cremoso 150 g   Philadelphia;;;LATICINIOS;Philadelphia;VMAN273-2403044;7622201723767;;Não;2,0500;1,4900;Uni;Sim;6;;;P;;S;-5,0000;29.80;
+Creme Vegetal  225g  Planta;;;LATICINIOS;Planta;VCRE274-24030434;8719200253407;;Não;1,8900;1,4900;Uni;Sim;6;;;P;;S;-6,0000;19.67;
+Creme Vegetal 250g  Vaqueiro;;;LATICINIOS;Vaqueiro;VCRE275-24030412;8719200268616;;Não;1,4900;1,2300;Uni;Sim;6;;;P;;S;0;14.28;
+Alimento Humido p/ Gatos     Felix;;;PET;Purina;VALI276-24030484;7613287492074;;Não;2,9900;1,9900;Uni;Sim;23;;;P;;S;-2,0000;22.16;
+Ração Seca p. Gato  Kitty;;;PET;Purina;2 kg;5607047015476;;Não;3,5900;2,1900;Uni;Sim;23;;;P;;S;-3,0000;33.27;
+Ração Seca Cão Adulto  ActivPet;;;PET;Activpet;4 kg;5601009988822;;Não;6,4900;4,1100;Uni;Sim;23;;;P;;S;-4,0000;28.38;
+Iogurte Aroma Banana Amanhecer;;;IOGURTES;Amanhecer 1;4x125g;5601227034707;;Não;0,8500;0,6900;Uni;Sim;6;;;P;ALI;S;-2,0000;16.22;
+Iogurte Aroma Morango Amanhecer;;;IOGURTES;Amanhecer 1;4x120g;5601227034721;;Não;0,8500;0,6900;Uni;Sim;6;;;P;ALI;S;-5,0000;16.22;
+Iogurte Aroma T. Fruit  Amanhecer;;;IOGURTES;Amanhecer 1;4x125g;5601227034714;;Não;0,8500;0,6900;Uni;Sim;6;;;P;ALI;S;-4,0000;16.22;
+Iogurte Aroma Coco Amanhecer;;;IOGURTES;Amanhecer 1;4x120g;5601227034738;;Não;0,8500;0,6900;Uni;Sim;6;;;P;ALI;S;-1,0000;16.22;
+Iogurte Pedaços Cereais Amanhecer;;;IOGURTES;Amanhecer 1;4 x 125g;5601227034776;;Não;1,1900;0,9200;Uni;Sim;6;;;P;ALI;S;-3,0000;22.03;
+Iogurte Pedaços Pêssego Amanhecer;;;IOGURTES;Amanhecer 1;4x 125g;5601227035797;;Não;1,1900;0,9200;Uni;Sim;6;;;P;ALI;S;-4,0000;22.03;
+Açucar  Branco Plastico;;;FARINHA | AÇUCAR;Rar;1 kg  Rar;5602711001304;;Não;1,6600;1,0650;Uni;Sim;23;;;P;ALI;S;-9,0000;26.72;
+Couve Roxa;;;LEGUMES;Frutas Ribeiros;VCOU286-24030560;;;Não;1,3000;0,9500;Kg;Sim;6;;;P;ALI;S;-4,0400;29.10;https://www.vendus.pt/foto/7c1dace2c1aefa6ad52a18f94f53ead5.jpg
+Flor de Sal 175g  Vatel;;;MERCEARIA;Vatel;VFLO287-24030531;5601170167743;;Não;2,2900;1,8400;Uni;Sim;6;;;P;ALI;S;-2,0000;17.41;
+Detergente Tira Nódoas;;;LIMPEZA;Ultra pro;750 ml  Ultra;5607047002209;;Não;2,2900;1,4400;Uni;Sim;23;;;P;;S;-3,0000;29.29;
+Detergente em Pó;;;LIMPEZA;Ultra pro;650g Ultra pro;5601009930876;;Não;1,2900;0,8900;Uni;Sim;23;;;P;;S;5,0000;17.84;
+Farinha de Trigo Natural T65;;;FARINHA | AÇUCAR;Espiga;1kg  Espiga;5601043111149;;Não;1,3900;0,9800;Uni;Sim;6;;;P;;S;8,0000;33.81;
+Agua de São Marttinho 1.5l;;;BEBIDAS S/ ALCOOL;São Martinho;São Marttinho 1.5l;5604868001053;;Não;0,2700;0,1800;Uni;Sim;13;;;P;ALI;S;2,0000;32.74;https://www.vendus.pt/foto/7b78a6c258200f2693bef7bc523b6927.jpg
+Pão de Forma 500g Puríssimo;;;MATINAIS;Puríssimo;VPAO292-24030517;5600817022384;;Não;0,9900;0,6800;Uni;Sim;6;;;P;ALI;S;2,0000;37.35;
+Detergente Maq. Liq.;;;LIMPEZA;OMO;55 doses  OMO;8720181368752;;Não;6,6900;4,1800;Uni;Sim;23;;;P;;S;3,0000;30.12;
+Lixivia Pavão 5l;;;LIMPEZA;Lixivia;VLIX294-24030562;5604508111821;;Não;1,7900;1,0200;Uni;Sim;23;;;P;;S;-6,0000;42.67;
+Hipoclorito de Sódio 5l;;;LIMPEZA;Lixivia;5l;5604508111739;;Não;3,9000;2,5600;Uni;Sim;23;;;P;;S;-1,0000;23.86;
+Lava Tudo Herbal;;;LIMPEZA;Amanhecer 1;2L Amanhecer;5601227041903;;Não;1,1000;0,7400;Uni;Sim;23;;;P;;S;-1,0000;20.85;
+Lava Tudo Ar Fresco;;;LIMPEZA;Amanhecer 1;2L Amanhecer;5601227042665;;Não;1,1000;0,7400;Uni;Sim;23;;;P;;S;2,0000;20.85;
+Lava Tudo Camomila | Laranja;;;LIMPEZA;Sonasol;1.3L Sonasol;8410436297691;;Não;2,1000;1,3900;Uni;Sim;23;;;P;;S;3,0000;22.83;
+Lava Tudo Lavanda;;;LIMPEZA;Sonasol;1.3L  Sonasol;8410436299961;;Não;2,1000;1,3900;Uni;Sim;23;;;P;;S;1,0000;22.83;
+Lava Tudo Aloe V / Flores;;;LIMPEZA;Sonasol;1.3L  Sonasol.;8410436297660;;Não;2,1000;1,3900;Uni;Sim;23;;;P;;S;2,0000;22.83;
+Detergente Loiça Antibacteriano;;;LIMPEZA;Amanhecer 1;500ml Amanhecer;5601227047462;;Não;1,3500;0,8700;Uni;Sim;23;;;P;;S;-1,0000;26.16;
+Detergente Loiça Limão;;;LIMPEZA;Amanhecer 1;500ml Amanhecer;5601227041040;;Não;1,3500;0,8700;Uni;Sim;23;;;P;;S;-3,0000;26.16;
+Esc. Dentes Oral B;;;HIGIENE;Oral B;4-Pack;3014260014278;;Não;4,3500;2,6900;Uni;Sim;23;;;P;;S;6,0000;31.47;
+Sal de Fruta ENO;;;SAÚDE;ENO;10 Saq;5601385500984;;Não;4,6900;2,8900;Uni;Sim;23;;;P;;S;5,0000;31.94;
+Compota Doce Morango 355g Amanhecer;;;CONSERVAS;Amanhecer 1;VCOM305-24030557;5601227016505;;Não;1,7400;1,0900;Uni;Sim;23;;;P;;S;3,0000;29.78;
+Compota Doce Pessego 355g Amanhecer;;;CONSERVAS;Amanhecer 1;VCOM306-24030542;5601227016536;;Não;1,7400;1,0900;Uni;Sim;23;;;P;;S;5,0000;29.78;
+Nectar 8 Frutos 200ml Amanhecer;;;BEBIDAS S/ ALCOOL;Amanhecer 1;VNEC307-2403056;5601227039139;;Não;0,3500;0,2400;Uni;Sim;6;;;P;ALI;S;5,0000;37.58;
+Achocolatado ColaCao 250g;;;MATINAIS;Idilia Foods;VACH308-24030599;8410014894052;;Não;2,8900;1,9500;Uni;Sim;23;;;P;ALI;S;4,0000;20.49;
+Natas Culinaria 0% Lac Parmalat;;;LATICINIOS;Parmalat;200ml  Parmalat;5603089007134;;Não;1,1000;1,0200;Kg;Sim;6;;;P;ALI;S;3,0000;1.74;
+Natas p/ Bater 0% Lac Parmalat;;;LATICINIOS;Parmalat;200ml Parmalat;5603089007424;;Não;1,1000;1,0200;Kg;Sim;6;;;P;ALI;S;5,0000;1.74;
+Pão Forma Branco  375g  Bimbo;;;MATINAIS;Bimbo;VPAO311-24030592;8412600012185;;Não;2,0500;1,6000;Uni;Sim;6;;;P;ALI;S;-2,0000;20.87;
+Natas p/ Bater Parmalat;;;LATICINIOS;Parmalat;200ml Parmalat;5603089002214;;Não;0,9784;0,7100;Uni;Sim;6;;;P;ALI;S;1,0000;30.00;
+Bimbo Integral  480g;;;MATINAIS;Bimbo;VBIM313-24030521;5601027973060;;Não;2,5900;2,0300;Uni;Sim;6;;;P;ALI;S;0;20.36;
+Bimbo 10 sementes s/ Côdea  650g;;;MATINAIS;Bimbo;VBIM314-24030591;5601027943551;;Não;2,9900;2,3940;Uni;Sim;6;;;P;ALI;S;0;17.83;
+Bollycao;;;MATINAIS;Bimbo;VBOL315-24030535;5601027000216;;Não;2,1900;1,4800;Uni;Sim;23;;;P;ALI;S;-4,0000;20.30;
+Pevide Milaneza;;;MASSA;Milaneza;VPEV316-24030581;5601286232779;;Não;0,7500;0,5600;Uni;Sim;6;;;P;ALI;S;20,0000;26.35;
+Acendalhas Brancas;;;UTILITARIOS;Inflame;32 und.;5609288222170;;Não;1,2900;0,8700;Uni;Sim;23;;;P;;S;1,0000;20.55;
+Broa de Mel;;;PADARIA;Odisseia;VBRO318-24030575;;;Não;0,4000;0,2500;Uni;Sim;6;;;P;ALI;S;-12,0000;50.94;https://www.vendus.pt/foto/1067a2f41be2de502d1037ec57b95d7a.jpg
+Navo s/ Rama;;;LEGUMES;Frutas Ribeiros;VNAV319-24030619;;;Não;1,7776;1,2900;Kg;Sim;6;;;P;ALI;S;-9,0200;30.00;https://www.vendus.pt/foto/603e1518f02f1d5ba9cedb69c20d4740.jpg
+Ovo Kinder Surpresa;;;DOCES E CHOCOLATES;Kinder;VOVO320-24030619;40084107;;Não;1,3900;0,9500;Uni;Sim;23;;;P;;S;-3,0000;18.96;
+Rebuçados fruta;;;DOCES E CHOCOLATES;;VREB321-24030681;;;Não;0,1000;0,0405;Uni;Não;23;;;P;ALI;S;Sem controlo de Stock;100.74;
+Chicles s/ Açucar HappyDent;;;DOCES E CHOCOLATES;Happydent;VCHI322-24030632;;;Não;0,1006;0,0340;Uni;Sim;23;;;P;ALI;S;-10,0000;140.55;
+Kinder Bueno;;;DOCES E CHOCOLATES;Kinder;VKIN323-24030663;80052760;;Não;1,1872;0,7600;Uni;Sim;23;;;P;ALI;S;-10,0000;27.00;
+Desodorizante Spray Dove Orig;;;HIGIENE;Dove;150ml;8000630040843;;Não;2,9900;1,8500;Uni;Sim;23;;;P;PER;S;6,0000;31.40;
+Desodorizante Spray Men Conf.;;;HIGIENE;Dove;150ml - Dove;8720181340581;;Não;2,9900;1,8500;Uni;Sim;23;;;P;PER;S;-2,0000;31.40;
+Saco de Lixo 30L Amanh;;;LIMPEZA;Amanhecer 1;30 und;5601227022896;;Não;0,8900;0,6600;Uni;Sim;23;;;P;CAS;S;2,0000;9.63;
+Sacos de Lixo 10L Amanh;;;LIMPEZA;Amanhecer 1;30 unid;5601227043631;;Não;0,9454;0,6100;Uni;Sim;23;;;P;CAS;S;6,0000;26.00;
+Creme Polident Orig;;;HIGIENE;Polident;70g;5601385504593;;Não;5,6900;3,7100;Uni;Sim;23;;;P;PER;S;2,0000;24.69;
+Adega Vinha Rosé;;;BEBIDAS C/ ALCOOL;;VADE329-24030678;5600202947469;;Não;1,4000;0,0000;Uni;Sim;23;;;P;;S;-1,0000;100;
+Cruzeiro Vinho verde;;;BEBIDAS C/ ALCOOL;;VCRU330-24030664;5602598122314;;Não;1,9000;0,0000;Uni;Sim;23;;;P;;S;-10,0000;100;
+Cogumelo Branco;;;LEGUMES;Frutas Ribeiros;VCOG331-24030741;;;Não;5,1700;3,7500;Kg;Sim;6;;;P;ALI;S;-1,7050;30.06;https://www.vendus.pt/foto/88337b7156261af28057e221826869fe.jpg
+Nabiça;;;LEGUMES;Frutas Ribeiros;VNAB332-24030752;;;Não;1,7500;1,3500;Kg;Sim;6;;;P;ALI;S;-0,0060;22.29;https://www.vendus.pt/foto/93332d47269be1516809b03ef12a1594.png
+Batom de Cieiro;;;SAÚDE;Labello;Labelo;4005900567840;;Não;2,0000;0,0000;Uni;Sim;23;;;P;PER;S;3,0000;100;
+FERLIMPA Tira-Nódoas;;;LIMPEZA;Ferlimpa;VFER334-24030762;5603958005070;;Não;1,0000;0,0000;Uni;Sim;23;;;P;CAS;S;4,0000;100;
+Vinho Branco  Box;;;BEBIDAS C/ ALCOOL;Parede Caiada;5L Parede Caiada;5602012602576;;Não;7,3900;4,9900;Uni;Sim;13;;;P;;S;2,0000;31.06;https://www.vendus.pt/foto/1bccd14323c8eefe35b2932b4b0f6e5b.jpg
+Sabão Solaovar Azul;;;LIMPEZA;;VSAB336-2403075;5601092000029;;Não;1,3500;0,8400;Uni;Sim;23;;;P;CAS;S;2,0000;30.66;
+Vinho Tinto  Box;;;BEBIDAS C/ ALCOOL;Parede Caiada;5L  Parede Caiada;5602012602569;;Não;7,3900;4,9900;Uni;Sim;13;;;P;ALT;S;-1,0000;31.06;https://www.vendus.pt/foto/7cfdc3f97d192800e06992cc832e15d2.jpg
+Chocolate Milka Leite;;;DOCES E CHOCOLATES;Milka;100g;3045140105502;;Não;1,3900;0,8170;Uni;Sim;23;;;P;ALI;S;20,0000;38.32;
+Chocolate Milka Oreo;;;DOCES E CHOCOLATES;Milka;100g Oreo;7622300631574;;Não;1,3900;0,8168;Uni;Sim;23;;;P;ALI;S;17,0000;38.35;
+Chocolate Milka Avelã;;;DOCES E CHOCOLATES;Milka;100g Avelã;4025700001023;;Não;1,3900;0,8168;Uni;Sim;23;;;P;ALI;S;-5,0000;38.35;
+Sabão Solaovar Rosa;;;LIMPEZA;;VSAB341-24030789;5601092000036;;Não;1,3500;0,8400;Uni;Sim;23;;;P;CAS;S;3,0000;30.66;
+Batatas Pringles Originais;;;SNACKS;Pringles;40g;5053990107339;;Não;1,3500;0,8300;Kg;Sim;23;;;P;ALI;S;7,0000;32.24;
+Grao de Bico Coz.;;;CONSERVAS;;MEPS 570g;5603670118003;;Não;1,1000;0,6908;Kg;Sim;23;;;P;ALI;S;11,0000;29.46;
+Lixivia Neoblac Trad.;;;LIMPEZA;Neoblanc;1L;8001480020511;;Não;1,1000;0,7100;Uni;Sim;23;;;P;;S;8,0000;25.96;
+Iogurte Pedaços Frutos Verm Amanhecer;;;IOGURTES;Amanhecer 1;VIOG345-24030776;5601227035124;;Não;1,1900;0,9200;Uni;Sim;6;;;P;ALI;S;-2,0000;22.03;
+Iogurte Liq. Amanhecer;;;IOGURTES;Amanhecer 1;4x Stracciatella;5601227035933;;Não;1,4500;1,2400;Uni;Sim;6;;;P;ALI;S;0,0000;10.32;
+Iogurte Liq. Pina Colada;;;IOGURTES;Amanhecer 1;4x Amanhecer;5601227017748;;Não;1,3500;1,2000;Uni;Sim;6;;;P;ALI;S;-2,0000;6.13;
+Manteiga Mimosa;;;LATICINIOS;Mimosa;c/ Sal 250g;5601049612336;;Não;2,1900;1,8400;Uni;Sim;6;;;P;ALI;S;-1,0000;12.28;
+Lenços Papel Renova;;;HIGIENE;Renova;6 pack;5601028000901;;Não;1,1000;0,0000;Uni;Sim;23;;;P;PER;S;-1,0000;100;
+Leite Magro UHT Agros;;;LATICINIOS;Agros;emb. 6 x 1 lt €99/lt;5603722520006;;Não;5,9500;4,9300;Uni;Sim;6;;;P;ALI;S;-2,0000;13.86;
+Leite Magro UHT 1L. Agros;;;LATICINIOS;Agros;Agros emb 1L.;5601192102302;;Não;0,9900;0,8300;Uni;Sim;6;;;P;ALI;S;-3,0000;12.53;
+Iogurte Pedaços Cereais;;;IOGURTES;Agros;Agros;5603722518416;;Não;1,4000;1,2000;Uni;Sim;6;;;P;ALI;S;-2,0000;10.06;
+Leite Achocolatadao  Agros;;;LATICINIOS;Agros;4 x 200ml;5603722509742;;Não;1,6500;1,2000;Uni;Sim;6;;;P;;S;-4,0000;29.72;
+Marmelada Extra Ferbar;;;CONSERVAS;Ferbar;400g;-5601319049251;;Não;2,3900;1,3800;Uni;Sim;23;;;P;ALI;S;2,0000;40.80;
+Iogurte Liq. Frutos Verm.;;;IOGURTES;Amanhecer 1;Amanhecer 4x;5601227029611;;Não;1,3500;1,2000;Uni;Sim;6;;;P;ALI;S;-2,0000;6.13;
+Iogurte Liq. Banana;;;IOGURTES;Amanhecer 1;Amanhecer;5601227017731;;Não;1,3500;1,2000;Uni;Sim;6;;;P;ALI;S;0;6.13;
+Pensos Hig. Super 12u Evax;;;HIGIENE;Evax;Evax;8410108084031;;Não;2,5900;1,8800;Uni;Sim;23;;;P;PER;S;13,0000;12.00;
+Pensos Hig. Super Plus 10u Evax;;;HIGIENE;Evax;Evax c/abas;8410108659062;;Não;2,5900;1,8800;Uni;Sim;23;;;P;PER;S;-1,0000;12.00;
+Farinha Milho;;;FARINHA | AÇUCAR;Ceifeira;500g  Ceifeira;5605786000241;;Não;0,7500;0,5400;Uni;Sim;6;;;P;ALI;S;-1,0000;31.03;
+Detergente Manual Loiça Ultra Limão;;;LIMPEZA;Fairy;Fairy emb. 615 ml;4015400591399;;Não;3,4900;2,1100;Uni;Sim;23;;;P;ALI;S;1,0000;34.47;
+Detergente Manual Loiça Ultra Poder;;;LIMPEZA;Fairy;Fairy emb. 325ml;8001841980591;;Não;1,6900;1,0000;Uni;Sim;23;;;P;ALI;S;-6,0000;37.40;
+Pimenta Branca Moída;;;ESPECIARIAS;Amanhecer 1;Amanhecer emb.43g;5601227028140;;Não;0,9000;0,7100;Uni;Sim;23;;;P;;S;2,0000;3.06;
+Cogumelos Laminados;;;CONSERVAS;Amanhecer 1;Amanhecer  355g;5601227045208;;Não;1,3400;0,8400;Uni;Sim;23;;;P;ALI;S;11,0000;29.69;
+Toalhitas Bebé Básico;;;HIGIENE;Dodot;Dodot emb. 54 un;8001090139504;;Não;0,9900;0,6900;Uni;Sim;6;;;P;;S;7,0000;35.36;
+Toalhitas Bebé Azul;;;HIGIENE;Dodot;Dodot emb. 64 un;8001090134226;;Não;1,4500;1,0200;Uni;Sim;6;;;P;;S;0,0000;34.11;
+Pimentão Doce Frasco;;;ESPECIARIAS;Amanhecer 1;AMANHECER 45g;5601227028126;;Não;0,6900;0,4600;Uni;Sim;23;;;P;;S;3,0000;21.95;
+Caril Frasco;;;ESPECIARIAS;Amanhecer 1;Amanhecer 46g;5601227028096;;Não;0,7500;0,5000;Uni;Sim;23;;;P;;S;4,0000;21.95;
+Coentros em Folha Frasco;;;ESPECIARIAS;Amanhecer 1;Amanhecer 7g;5601227028119;;Não;0,7500;0,5600;Uni;Sim;6;;;P;;S;8,0000;26.35;
+Alecrim Frasco;;;ESPECIARIAS;Amanhecer 1;Amanhecer 23g;5601227034257;;Não;0,7500;0,5700;Uni;Sim;6;;;P;;S;4,0000;24.13;
+Noz Moscada Moída Frasco;;;ESPECIARIAS;Amanhecer 1;Amanhecer  45g;5601227028102;;Não;1,2900;0,9500;Uni;Sim;23;;;P;;S;4,0000;10.40;
+Moinho Pimenta 5Bagas;;;ESPECIARIAS;Amanhecer 1;Amanhecer 35g;5601227046458;;Não;1,7900;1,2300;Uni;Sim;23;;;P;;S;4,0000;18.32;
+Leite Condensado Cozido;;;LATICINIOS;Amanhecer 1;Amanhecer 385g;5601227020908;;Não;1,9900;1,4600;Uni;Sim;6;;;P;;S;4,0000;28.59;
+Leite Condensado Tradicional;;;LATICINIOS;Amanhecer 1;Amanhecer 397g;5601227020885;;Não;1,6900;1,2900;Uni;Sim;6;;;P;;S;4,0000;23.59;
+Louro em Folhas;;;ESPECIARIAS;Amanhecer 1;Amanhecer 7g Sq;5601227028751;;Não;0,5512;0,4000;Uni;Sim;6;;;P;;S;4,0000;30.00;
+Amaciador R. Concentrado Rosa e Menta;;;LIMPEZA;Ultra pro;Ultra 60 Doses;5607047016114;;Não;2,1900;1,3500;Uni;Sim;23;;;P;;S;1,0000;31.89;
+Amaciador R. Concentrado Flores & F. B.;;;LIMPEZA;Ultra pro;Ultra  60 Doses;5607047000656;;Não;2,1900;1,3500;Uni;Sim;23;;;P;;S;-2,0000;31.89;
+Amaciador R. Concentrado Pure Sense;;;LIMPEZA;Ultra pro;Ultra 80 doses 2L;5607047016855;;Não;2,4900;1,5400;Uni;Sim;23;;;P;;S;-2,0000;31.45;
+Amaciador R.  Flores Silvestres;;;LIMPEZA;Quanto;Quanto 3,75L;5601217133687;;Não;3,9900;2,4900;Uni;Sim;23;;;P;;S;2,0000;30.28;
+Amaciador R. Relax;;;LIMPEZA;Quanto;Quanto  3,75L;5601217133670;;Não;3,9900;2,4900;Uni;Sim;23;;;P;;S;2,0000;30.28;
+Ração H. Gato de Salmão Plus Grain Free;;;PET;Activpet;ActivPet 100 G | 5,90 €/KG;5601009984589;;Não;0,5900;0,3600;Uni;Sim;23;;;P;;S;12,0000;33.24;
+Ração H. Cão Adulto Sabor Vaca e Fígado;;;PET;Activpet;ActivPet 300g;5601009931583;;Não;0,9500;0,5900;Uni;Sim;23;;;P;;S;4,0000;30.91;
+Ração H. Cão Adulto Borrego e Frango;;;PET;Activpet;ActivPet 300g;5601009931583;;Não;0,9500;0,5900;Uni;Sim;23;;;P;;S;3,0000;30.91;
+Ração S. Cão Júnior Frango;;;PET;Activpet;ActivPet  2 KG | 1,65 €/KG;;;Não;3,8900;2,4200;Uni;Sim;23;;;P;;S;4,0000;30.69;
+Alimento Humido p/ Gatos  Gelatinas;;;PET;Purina;Purina Felix emb. 4 x 85 gr;7613287494344;;Não;2,9900;1,9900;Uni;Sim;23;;;P;;S;0,0000;22.16;
+Ração Seca p. Gato  Kitty;;;PET;Purina;Cocktail de paixe 2 kg;5607047015483;;Não;3,6900;2,2900;Uni;Sim;23;;;P;;S;0,0000;31.00;
+Bolachas Chiqui Chocs;;;DOCES E CHOCOLATES;Artiach;Artiach  3 Packs;8436048963854;;Não;1,4000;0,9500;Uni;Sim;23;;;P;;S;6,0000;19.81;
+Bolachas Dinosaurus Huevos;;;DOCES E CHOCOLATES;Artiach;Artiach 3 packs;8436048963830;;Não;1,4000;0,9500;Uni;Sim;23;;;P;;S;5,0000;19.81;
+Bolachas de Chocolate Patrulha Pata;;;DOCES E CHOCOLATES;Maxies;Mini Cookies 100 gr;8436547640843;;Não;1,0000;0,6800;Uni;Sim;23;;;P;;S;3,0000;19.56;
+Bolachas Cream Crackerdoses Individuais;;;DOCES E CHOCOLATES;Vieira;VIEIRA emb.6x30g;5601008101901;;Não;1,1900;0,7300;Uni;Sim;23;;;P;;S;5,0000;32.53;
+Bolachas Crackers Top Pizza;;;DOCES E CHOCOLATES;Croco 1;Croco 150g;5941194003512;;Não;1,1000;0,6700;Uni;Sim;23;;;P;;S;11,0000;33.48;
+Bolachas Wafer Baulnilha;;;DOCES E CHOCOLATES;Avo Elvira;Avo Elvira 37g Pack;5602794000041;;Não;0,5000;0,2800;Uni;Sim;23;;;P;;S;4,0000;45.18;
+Bolachas Wafer Chocolate;;;DOCES E CHOCOLATES;Avo Elvira;Avo Elvira 37g  Pack;5602794000058;;Não;0,5000;0,2800;Uni;Sim;23;;;P;;S;6,0000;45.18;
+Bolachas Mega Duo Chocolate;;;DOCES E CHOCOLATES;Gullón;GULLÓN 500g;8410376017113;;Não;2,3900;1,4400;Uni;Sim;23;;;P;;S;10,0000;34.94;
+Bolachas Digestivas de Aveia e Chocolate;;;DOCES E CHOCOLATES;Gullón;GULLÓN  265g;8410376054033;;Não;1,6900;1,0300;Uni;Sim;23;;;P;;S;6,0000;33.40;
+Babi Fresa Morango;;;DOCES E CHOCOLATES;Mandul;Mandul 200g;8423915008671;;Não;1,6900;1,0750;Uni;Sim;23;;;P;;S;9,0000;27.81;
+Babi Fresa Chocolate;;;DOCES E CHOCOLATES;Mandul;Mandul 200g;8423915001177;;Não;1,6900;1,0750;Uni;Sim;23;;;P;;S;7,0000;27.81;
+Bolacha  Maria Packs;;;DOCES E CHOCOLATES;Gullón;Gullon 12x25g;8410376057737;;Não;1,6900;0,9200;Uni;Sim;23;;;P;;S;6,0000;49.35;
+Tortitas de Milho e Chocolate Negro;;;DOCES E CHOCOLATES;Gullón;Gullón emb. 100 gr (4 un);8410376040593;;Não;1,6500;1,0100;Uni;Sim;23;;;P;;S;2,0000;32.82;
+Tortitas de Arroz Chocolate e Framboesa;;;DOCES E CHOCOLATES;Gullón;Vitalday 4 Packs;8410376052404;;Não;1,7500;1,0100;Uni;Sim;23;;;P;;S;1,0000;40.87;
+Super Bock Garrafa 33 cl;;;BEBIDAS C/ ALCOOL;Super Bock;Super Bock;56090727;;Não;0,8900;0,5500;Uni;Sim;23;;;P;;S;19,0000;31.56;https://www.vendus.pt/foto/31fbefcb0b5ddc683c40ca0ca0fbc6a5.png
+Meia de Senhora Mousse;;;HIGIENE;;VMEI401-24030822;5601439293992;;Não;1,1000;0,0000;Uni;Sim;23;;;P;;S;12,0000;100;
+Meia de Senhora Collant Seda;;;HIGIENE;;VMEI402-24030822;5600323204519;;Não;1,4000;0,0000;Kg;Sim;23;;;P;;S;12,0000;100;
+Meia de Senhora Collant Seda 13 den;;;HIGIENE;;VMEI403-24030836;5600323204519;;Não;0,7000;0,0000;Uni;Sim;23;;;P;;S;-3,0000;100;
+Spray Desengordurante;;;LIMPEZA;Mistolin;Mistolin emb. 545 ml;5603124023273;;Não;2,6900;1,7400;Kg;Sim;23;;;P;;S;1,0000;25.69;
+Lava Tudo Lavanda;;;LIMPEZA;Amanhecer 1;Amanhecer 2L;5601227041910;;Não;1,1000;0,7400;Uni;Sim;23;;;P;;S;-1,0000;20.85;
+Cápsulas de Café Ristretto Ardenza Int 11;;;CAFES;Dolce Gusto;Dolce Gusto emb. 16 un;7613034704436;;Não;5,9000;3,7000;Uni;Sim;23;;;P;;S;2,0000;29.64;
+Cápsulas C. Espresso Intenso 7;;;CAFES;Dolce Gusto;Dolce Gusto emb.16 un;7613036862295;;Não;5,9000;3,7000;Uni;Sim;23;;;P;;S;1,0000;29.64;
+Cápsulas de Café com Leite Galão;;;CAFES;Dolce Gusto;Dolce Gusto  emb. 16 un;7613033174667;;Não;5,9000;3,7000;Uni;Sim;23;;;P;;S;2,0000;29.64;
+Lezíria Meio Seco Vinho Branco;;;BEBIDAS C/ ALCOOL;;Lezíria garrafa 75 cl;5602016011039;;Não;1,6900;0,0000;Uni;Sim;23;;;P;;S;1,0000;100;
+O Tal da Lixa DOC Vinho Verde Branco;;;BEBIDAS C/ ALCOOL;;Tal da Lixa garrafa 75 cl;5601333051674;;Não;2,9900;0,0000;Uni;Sim;23;;;P;;S;0,0000;100;
+Lâminas Descartáveis Blue II;;;HIGIENE;Gillette;Gillette emb. 5 un;7702018468034;;Não;2,3900;1,4900;Uni;Sim;23;;;P;;S;1,0000;30.41;
+Lâminas Descartáveis Sensitive;;;HIGIENE;BIC;Bic 5 uni;3086125702010;;Não;1,5800;1,0200;Uni;Sim;23;;;P;;S;-1,0000;25.94;
+Lenços de Bolso Folha Tripla Pack AMANHECER 6un;;;HIGIENE;Amanhecer 1;Amanhecer 6 und;5601227025187;;Não;0,8900;0,5400;Uni;Sim;23;;;P;PER;S;2,0000;34.00;
+Gelatina em Pó de Morango;;;DOCES E CHOCOLATES;Royal;Royal emb. 31 gr;7622210369994;;Não;1,9900;0,0000;Uni;Sim;23;;;P;;S;2,0000;100;
+Gelatina em Pó de Melancia;;;DOCES E CHOCOLATES;Royal;Royal  emb. 31 gr;7622210369994;;Não;1,9900;0,0000;Uni;Sim;23;;;P;;S;3,0000;100;
+Leite UHT Meio Gordo;;;LATICINIOS;Gresso;Gresso emb. 1 lt;5603722520815;;Não;0,8900;0,7200;Uni;Sim;6;;;P;;S;-10,0000;16.61;
+Leite UHT Meio Gordo;;;LATICINIOS;Gresso;Gresso emb. 6 x 1 lt;5603722520822;;Não;5,3500;0,7200;Uni;Sim;6;;;P;;S;-1,0000;601.00;
+Vinho Tinto Verde Vinhão;;;BEBIDAS C/ ALCOOL;;QUINTA DA LIXA  75cl;5601333055634;;Não;3,9900;0,0000;Uni;Sim;23;;;P;;S;0,0000;100;
+VINHO REGUENGOS DOC BRANCO 2021;;;BEBIDAS C/ ALCOOL;;CARMIM 0.75;5601377315183;;Não;2,3500;0,0000;Uni;Sim;23;;;P;;S;0,0000;100;
+Limpa Vidros Spray;;;LIMPEZA;Amanhecer 1;Amanhecer 1L;5601227042122;;Não;0,8900;0,6500;Uni;Sim;23;;;P;;S;4,0000;11.32;
+Chocolate em Pó sem Glúten;;;DOCES E CHOCOLATES;Pantagruel;Pantagruel emb. 125 gr;5601055091040;;Não;0,9500;0,0000;Uni;Sim;23;;;P;;S;0;100;
+Carvão Vegetal;;;UTILITARIOS;Amanhecer 1;Amanhecer 5kg;5601227026566;;Não;7,4900;4,6900;Kg;Sim;23;;;P;;S;2,0000;29.84;
+Substrato Vegetal Fertilizado;;;UTILITARIOS;Brico7;Brico  10 L;5601009942664;;Não;1,6900;1,2400;Uni;Sim;6;;;P;;S;-2,0000;28.58;
+Sabonete Sólido Glicerina Hidratante;;;HIGIENE;Palmolive;Palmolive emb. 90 gr;8693495032964;;Não;0,9500;0,5900;Uni;Sim;23;;;P;;S;1,0000;30.91;
+Pensos Incontinência Discreet Normal;;;HIGIENE;Tena;Tena emb. 24 un;7322540851946;;Não;5,2900;3,9900;Uni;Sim;6;;;P;;S;2,0000;25.08;
+Mega Rolo Cozinha 2 Folhas;;;LIMPEZA;Puríssimo;Puríssimo 1 = 10;5600817025408;;Não;2,4900;1,4500;Uni;Sim;23;;;P;;S;5,0000;39.61;
+Côa Mel  500g;;;CONSERVAS;Côa Mel;Rosmaninho e Amendoeira;;;Não;5,9900;3,5000;Uni;Sim;6;;;P;;S;2,0000;61.46;
+Côa Mel  500g;;;CONSERVAS;Côa Mel;Castanheiro;;;Não;5,9900;3,5000;Uni;Sim;6;;;P;;S;-1,0000;61.46;
+Côa Mel  1L;;;CONSERVAS;Côa Mel;Rosmaninho  e Amendoeira;;;Não;9,9900;6,5000;Uni;Sim;6;;;P;;S;2,0000;44.99;
+Couriço de Vinho Seara;;;ENCHIDOS;Seara;VCOU430-2403095;5603925002750;;Não;1,3900;0,8600;Uni;Sim;23;;;P;ALI;S;12,0000;31.40;
+Rolo Higienico;;;HIGIENE;Amoos;Amoos 6 = 18;5601856250028;;Não;2,6900;1,4500;Uni;Sim;23;;;P;;S;-1,0000;50.83;
+Maça Golden 65 | 70;;;FRUTARIA;Frutas Ribeiros;VMAC432-24031167;;;Não;0,8900;0,6300;Kg;Sim;6;;;P;ALI;S;-14,5000;33.27;
+Tomate Cherry;;;LEGUMES;Frutas Ribeiros;VTOM433-24031187;;;Não;3,5900;2,2500;Kg;Sim;23;;;P;;S;-2,1550;29.72;https://www.vendus.pt/foto/d6f47a9956f45b9d50f2595ee6cdc9ef.png
+Batata Vermelha  Saco;;;LEGUMES;Frutas Ribeiros;2.50kg;;;Não;2,8900;2,1000;Kg;Sim;6;;;P;ALI;S;5,0000;29.83;https://www.vendus.pt/foto/0e143fcf9bae2ebe478b3fa83d51c7fe.jpg
+Abacate;;;FRUTARIA;Frutas Ribeiros;VABA435-24031199;;;Não;5,6900;3,5500;Kg;Sim;23;;;P;ALI;S;0,0550;30.31;https://www.vendus.pt/foto/3d92804b42f5a67578b2f03bd0272612.jpg
+Grelos;;;LEGUMES;Frutas Ribeiros;VGRE436-24031171;;;Não;1,7900;1,2800;Kg;Sim;6;;;P;ALI;S;-4,8700;31.93;https://www.vendus.pt/foto/7806249a20b62929a81fd759c2af5ef3.jpeg
+Couve Repolho;;;LEGUMES;Frutas Ribeiros;VCOU437-24031140;;;Não;1,0900;0,7900;Kg;Sim;6;;;P;ALI;S;-11,6660;30.16;https://www.vendus.pt/foto/6de938741e277a1325031f2bc43944d2.jpeg
+Cogumelo Castanho;;;LEGUMES;Frutas Ribeiros;VCOG438-24031152;;;Não;6,3900;4,6500;Kg;Sim;6;;;P;ALI;S;-1,6100;29.64;https://www.vendus.pt/foto/329c0304388e51ac8eb6093f6fc5f63e.jpg
+Espargo;;;LEGUMES;Frutas Ribeiros;VESP439-24031134;;;Não;13,6500;9,9000;Kg;Sim;6;;;P;ALI;S;-3,2950;30.07;https://www.vendus.pt/foto/c4a9cc238da1c03afd50205350f6d708.jpg
+Beringela;;;LEGUMES;Frutas Ribeiros;VBER440-24031129;;;Não;2,3500;1,6800;Kg;Sim;6;;;P;ALI;S;-0,3150;31.96;https://www.vendus.pt/foto/42323f8578dca8494a7be04461efcf93.jpg
+Pera Rocha;;;FRUTARIA;Frutas Ribeiros;60/65;;;Não;2,3400;1,7000;Kg;Sim;6;;;P;;S;1,2050;29.86;
+Crackers Integrais;;;DOCES E CHOCOLATES;Crich;Crich 250 g;8008620009337;;Não;1,5900;1,0100;Uni;Sim;23;;;P;;S;8,0000;27.99;
+Uva Red Globe;;;FRUTARIA;Frutas Ribeiros;VUVA443-24031264;;;Não;5,2100;3,7800;Kg;Sim;6;;;P;;S;-13,2070;30.03;https://www.vendus.pt/foto/68c98c47b186f8099ccbf9f31d0addd6.png
+Batata Branca Saco;;;LEGUMES;Frutas Ribeiros;2.5kg;;;Não;3,1000;2,2700;Kg;Sim;6;;;P;ALI;S;3,0000;28.83;https://www.vendus.pt/foto/2dc22ebbd8a4e82063e3377c4175fc01.jpg
+Queijo Bola Limiano;;;LATICINIOS;Limiano;VQUE445-24031249;;;Não;11,6900;8,4900;Kg;Sim;6;;;P;;S;0,9050;29.90;
+Queijo Bola Queijeira;;;LATICINIOS;Queijeira;VQUE446-2403124;;;Não;12,3900;8,9900;Kg;Sim;6;;;P;;S;0,0150;30.02;
+Queijo Vaca que Ri;;;LATICINIOS;Vaca que Ri;250g;3073781193091;;Não;2,8900;2,0900;Uni;Sim;6;;;P;;S;7,0000;30.45;
+Presunto Fatiado;;;ENCHIDOS;Porminho;80g;5604925010554;;Não;1,8900;1,1700;Uni;Sim;23;;;P;;S;2,0000;31.33;
+Iogurte Liq. Banana 4x;;;IOGURTES;Mimosa;Mimosa B 4x 151 ml;5603722521539;;Não;1,4000;1,1900;Uni;Sim;6;;;P;ALI;S;-2,0000;10.99;
+Fiambre Peito Peru;;;FIAMBRE | QUEIJO;Porminho;VFIA450-24031284;;;Não;9,9200;6,2000;Kg;Sim;23;;;P;ALI;S;3,4750;30.08;
+Sel. 4 Queijos Especiarias;;;LATICINIOS;Dom Villas;Dom Vilas;5609707000372;;Não;6,8900;4,9900;Uni;Sim;6;;;P;;S;1,0000;30.26;
+Mortadela com Azeitona;;;FIAMBRE | QUEIJO;Porminho;Porminho;;;Não;4,9600;3,1000;Kg;Sim;23;;;P;;S;1,7530;30.08;
+Esfregão Super Desengordurante;;;UTILITARIOS;Bravo;Bravo 6 unidades;5601123103002;;Não;0,9900;0,5900;Uni;Sim;23;;;P;;S;-2,0000;36.42;
+Alimento Humido p/ Gatos     Felix;;;PET;Purina;Sabores Campo;7613287491879;;Não;2,9900;1,9900;Uni;Sim;23;;;P;;S;1,0000;22.16;
+Alimento Humido p/ Gatos     Felix;;;PET;Purina;Legumes/Verduras;7613287494320;;Não;2,9900;1,9900;Uni;Sim;23;;;P;;S;2,0000;22.16;
+Alimento Humido p/ Gatos     Felix;;;PET;Purina;DUO;7613287492111;;Não;2,9900;1,9900;Uni;Sim;23;;;P;;S;2,0000;22.16;
+Alimento Humido p/ Gatos     Felix;;;PET;Purina;Salmão/Atum;7613287371157;;Não;2,9900;1,9900;Uni;Sim;23;;;P;;S;1,0000;22.16;
+Alimento Humido p/ Gatos  Felix;;;PET;Purina;Original;7613287491909;;Não;2,9900;1,9900;Uni;Sim;23;;;P;;S;2,0000;22.16;
+Fermento em Pó;;;MERCEARIA;Bravo;Rio Bravo;5601219130127;;Não;1,5500;0,9600;Uni;Sim;23;;;P;ALI;S;4,0000;31.27;
+Molho Cocktail Picante;;;AZEITE | MOLHOS;Paladin;Paladin275ml;5601517391091;;Não;2,0900;1,2900;Uni;Sim;23;;;P;;S;7,0000;31.72;
+Maionese Top Down;;;AZEITE | MOLHOS;Paladin;Paladin emb. 225 ml;5601517350012;;Não;1,5900;0,9400;Uni;Sim;23;;;P;;S;6,0000;37.52;https://www.vendus.pt/foto/c6b00a934f56f79bc326d2fbcee49c16.jpg
+Ketchup Top Down;;;AZEITE | MOLHOS;Paladin;Paladin emb. 250 gr;5601517360011;;Não;1,8500;1,1800;Uni;Sim;23;;;P;;S;8,0000;27.46;https://www.vendus.pt/foto/9c9e6d0eb0ec0dbeb6478decbac9a2d4.jpg
+Mostarda Top Down;;;AZEITE | MOLHOS;Paladin;Paladin emb. 250  gr;5601517380026;;Não;1,5900;0,8200;Uni;Sim;23;;;P;;S;8,0000;57.64;https://www.vendus.pt/foto/16b82c6e5c9d5fb518e74f5653774ae2.jpg
+Maionese Frasco;;;AZEITE | MOLHOS;Hellmann's;Hellmann's emb. 208 gr;8712100417184;;Não;2,7023;1,6900;Kg;Sim;23;;;P;;S;0;30.00;https://www.vendus.pt/foto/94f10974801fcddff2ac9e07848b1ae7.jpg
+Paliteiro;;;UTILITARIOS;Puríssimo;Puríssimo 120 und;5600817020915;;Não;0,5500;0,3300;Uni;Sim;23;;;P;;S;24,0000;35.50;
+Óleo Alimentar;;;AZEITE | MOLHOS;Fula;Fula emb. 1 lt;5601024105020;;Não;2,1900;1,4900;Kg;Sim;13;;;P;;S;13,0000;30.07;https://www.vendus.pt/foto/5372bba365740c64101f255f29b5ef05.jpg
+Pensos Higiénicos Normal;;;HIGIENE;Reglex;Reglex emb. 20 un;5601028001199;;Não;1,3900;0,9900;Uni;Sim;6;;;P;;S;8,0000;32.46;
+Tosta Mini Grill Integral;;;SNACKS;Diatosta;DIATOSTA 180g;5601560111844;;Não;1,7500;1,2500;Uni;Sim;6;;;P;;S;2,0000;32.08;
+Mini tostas de trigo;;;SNACKS;Diatosta;Diatosta 90 g;5601560111189;;Não;1,1000;0,7500;Uni;Sim;6;;;P;;S;-1,0000;38.36;
+Mini tostas de trigo;;;SNACKS;Diatosta;Diatosta 350g;5601560111196;;Não;2,4900;1,8500;Uni;Sim;6;;;P;;S;0;26.98;
+Pão de Leite Dulca 8 Un;;;MATINAIS;Dulca;Dulca 8 Un 220 g;8413675000190;;Não;1,2953;0,9400;Uni;Sim;6;;;P;;S;2,0000;30.00;
+Agua Serra da Penha;;;BEBIDAS S/ ALCOOL;Serra da Penha;Serra da Penha  5L;5601591000032;;Não;1,0000;0,6800;Uni;Sim;13;;;P;;S;5,0000;30.14;
+Ração Seca p. Gato;;;PET;Catclassic;Catclassic Salmão;5601035400848;;Não;4,2900;2,6400;Uni;Sim;23;;;P;;S;-1,0000;32.11;
+Ração Seca mix carnes;;;PET;Catclassic;Catclassic 1.5 kg;5601035400824;;Não;2,9900;1,8700;Uni;Sim;23;;;P;;S;0;29.99;
+Ração S. Cão Júnior Frango | Arroz;;;PET;Dogclassic;Dogclassic 4 kg;5601035400763;;Não;8,6900;5,3900;Uni;Sim;23;;;P;;S;-1,0000;31.08;
+Ração Seca Cão Adulto Carnes;;;PET;Dogclassic;Dogclassic 4  kg;5601035400770;;Não;5,7900;3,5900;Uni;Sim;23;;;P;;S;1,0000;31.12;
+Ração H. Gato de Salmão;;;PET;Petcool;Petcool 100g;8436560680819;;Não;0,4000;0,2200;Uni;Sim;23;;;P;;S;16,0000;47.82;
+Ração H. Gato de Frango;;;PET;Petcool;Petcool  100g;8436560680802;;Não;0,4000;0,2200;Uni;Sim;23;;;P;;S;8,0000;47.82;
+Alface Vermelha;;;LEGUMES;Frutas Ribeiros;VALF479-24031391;;;Não;1,3000;0,9500;Kg;Sim;6;;;P;ALI;S;2,1850;29.10;https://www.vendus.pt/foto/1cf845bc98c0ba4d3b9b632e1bad9f86.jpg
+Esfregão Ultra Fresh Fibra Verde;;;LIMPEZA;Vileda;Vileda 2 un + 1 un;;;Não;1,5900;0,9100;Uni;Sim;23;;;P;;S;11,0000;42.05;
+Lâminas de Barbear Descartáveis;;;HIGIENE;BIC;Sensitive Bic 3;3086126691862;;Não;3,1900;1,9900;Uni;Sim;23;;;P;;S;5,0000;30.33;
+Chá Verde 10 sq.  Tley;;;MATINAIS;Tley;Tley 10 saq.;5601408010339;;Não;0,7900;0,5700;Uni;Sim;6;;;P;;S;11,0000;30.75;
+Cebola Roxa;;;LEGUMES;Frutas Ribeiros;VCEB483-24031323;;;Não;1,9000;1,3900;Kg;Sim;6;;;P;ALI;S;-1,2950;28.95;https://www.vendus.pt/foto/16b7c7b430cee3c239991b962c60ddce.jpeg
+Chá Preto  Descafeinado;;;MATINAIS;Tley;Tley 10 sq.;5601408000026;;Não;0,9500;0,6700;Uni;Sim;6;;;P;;S;12,0000;33.77;
+Chá Infusão Verbena;;;MATINAIS;Tley;Tley 10  saq.;5601408010124;;Não;0,7900;0,5700;Uni;Sim;6;;;P;;S;12,0000;30.75;
+Grand Dessert;;;;;VGRA486-24031480;8003295000016;;Não;2,7000;0,0000;Uni;Sim;23;;;P;;S;0;100;
+Chá de Rooibos;;;MATINAIS;Tley;Tley  10  saq.;5601408000118;;Não;0,9500;0,6700;Uni;Sim;6;;;P;;S;0;33.77;
+Atum Posta ao Natural;;;CONSERVAS;Puríssimo;Puríssimo 120g;5600817026368;;Não;0,9500;0,6900;Uni;Sim;6;;;P;ALI;S;17,0000;29.89;https://www.vendus.pt/foto/3f47adc2ae9eb2da8d830c468932c012.jpg
+Atum Posta em óleo vegetal;;;CONSERVAS;Puríssimo;Puríssimo  120g;5600817026351;;Não;0,9500;0,6900;Uni;Sim;6;;;P;ALI;S;18,0000;29.89;https://www.vendus.pt/foto/3f47a44a6d36aad0611aea268a2a298d.jpg
+Leite Meio-Gordo UHT;;;LATICINIOS;Nova Açores;Nova Açorers 1 L;5601883000047;;Não;0,9900;0,7500;Uni;Sim;6;;;P;ALI;S;-2,0000;24.53;
+Leite Meio-Gordo UHT;;;LATICINIOS;Nova Açores;Nova Açores 6 x 1L;5601883060041;;Não;5,9500;4,5000;Uni;Sim;6;;;P;ALI;S;0;24.74;
+Azeitona cura natural retalhada;;;CONSERVAS;Dolcelli;Dolcelli 400g;5600346480433;;Não;2,6900;1,7700;Uni;Sim;23;;;P;;S;4,0000;23.56;
+Azeitona Bical;;;CONSERVAS;Dolcelli;Docelli 400g;5600362061401;;Não;2,5900;1,6800;Uni;Sim;23;;;P;;S;6,0000;25.34;
+Tremoços Extra;;;CONSERVAS;Dolcelli;Dolcelli t 400g;5600362066246;;Não;1,9900;1,2200;Uni;Sim;23;;;P;;S;6,0000;32.61;
+Pickles;;;CONSERVAS;Dolcelli;Dolcelli  P 400g;5600362067144;;Não;2,4900;1,5400;Uni;Sim;23;;;P;;S;6,0000;31.45;
+Gel de Banho Classic;;;HIGIENE;Skyn;Skyn  750 ml;5600387496202;;Não;1,3000;0,8100;Uni;Sim;23;;;P;;S;6,0000;30.48;
+Bolor e Humidade;;;LIMPEZA;Glax;Glax  512 l;5600387491320;;Não;1,6900;1,0100;Uni;Sim;23;;;P;;S;12,0000;36.04;
+Tira Gorduras;;;LIMPEZA;Milagroso;Milagroso  515 ml;5600387492402;;Não;1,9900;1,1900;Uni;Sim;23;;;P;;S;11,0000;35.96;
+Filete Pescada Afri. Sul;;;GRANEL;D. Afonso;PL - 8.81€ kg | PLE - 11€ kg;;;Não;8,8082;6,3900;Kg;Sim;6;;;P;;S;0;30.04;
+Cavacas 500g;;;PADARIA;Odisseia;VCAV500-24031596;;;Não;6,5000;4,7500;Uni;Sim;23;;;P;ALI;S;-4,0000;11.25;https://www.vendus.pt/foto/1067ad212f2ead53f4d4ec93e83a6980.jpg
+Red Fish n. 4 Hig.;;;GRANEL;D. Afonso;PL - 5.10€ kg | PLE - 6,37€ kg;;;Não;5,1014;3,7000;Kg;Sim;6;;;P;;S;0;30.07;
+Pescada Nº4 p/ Fritar Duplicado;;;GRANEL;D. Afonso;PL - 6,36€ kg | PLE - 7.95€ kg;2954396001494;;Não;6,3599;4,6100;Kg;Sim;6;;;P;;S;0;30.15;
+Pescada Nº4 p/ Cozer Duplicado;;;GRANEL;D. Afonso;PL - 6.35€ kg | PLE - 7.95€ kg;2954395002287;;Não;6,3500;4,6080;Kg;Sim;6;;;P;;S;-0,8500;30.00;
+Pescada Nº6 Arg. Hig.;;;GRANEL;D. Afonso;PL - 3.78 € kg | PLE - 4.72€ kg;2904919002781;;Não;3,7800;2,7400;Kg;Sim;6;;;P;;S;-0,3320;30.15;
+Gengibre;;;LEGUMES;Frutas Ribeiros;VGEN505-24031542;;;Não;6,3000;4,5800;Kg;Sim;6;;;P;ALI;S;0,5000;29.77;
+Batata Branca Saco 10kg;;;LEGUMES;Frutas Ribeiros;VBAT507-24031578;;;Não;7,6900;5,6000;Kg;Sim;6;;;P;ALI;S;0,0000;29.55;https://www.vendus.pt/foto/2dc2afc74d93335b1eefe749dde92399.jpg
+Bebida Refrescante  Limão;;;BEBIDAS S/ ALCOOL;Nestea;Nestea L 1,5 L;5449000088550;;Não;2,2900;1,5600;Uni;Sim;23;;;P;;S;6,0000;19.35;
+Batata Vermelha Saco 10kg;;;LEGUMES;Frutas Ribeiros;VBAT508-24031552;;;Não;7,6900;6,0000;Kg;Sim;6;;;P;ALI;S;-1,0000;20.91;https://www.vendus.pt/foto/0e14a068de8bab5c7c11d3fa25a3bb7d.jpg
+Bebida Refrescante  Pêssego;;;BEBIDAS S/ ALCOOL;Nestea;Nestea P 1,5 L;5449000030528;;Não;2,2900;1,6400;Uni;Sim;23;;;P;;S;6,0000;13.52;https://www.vendus.pt/foto/0664b7a2a02140d7e5e29b8fb11251b3.jpg
+Bebida Refrescante  Manga;;;BEBIDAS S/ ALCOOL;Nestea;Nestea M 1.5 L;5449000111982;;Não;2,2900;1,5600;Uni;Sim;23;;;P;;S;6,0000;19.35;https://www.vendus.pt/foto/9f1465cdae44c2fb04b20033a9af856d.jpg
+Refrigerante c/ Gás Ananás;;;BEBIDAS S/ ALCOOL;Fanta;Fanta 1,5 L;5449000003751;;Não;1,6900;1,0600;Kg;Sim;23;;;P;;S;8,0000;29.62;https://www.vendus.pt/foto/3b1a777df981bd625461712a2c7f09e8.jpg
+Refrigerante c/ Gás Laranja;;;BEBIDAS S/ ALCOOL;Fanta;Fanta L 1.5 L;5449000003751;;Não;1,6900;1,0400;Kg;Sim;23;;;P;;S;8,0000;32.11;https://www.vendus.pt/foto/43ee92377c847f08d636d6df21ed8e67.jpg
+Cerveja com Álcool;;;BEBIDAS C/ ALCOOL;Super Bock;Super Bock Litrosa 1 lt;5601164115606;;Não;2,1500;1,3500;Uni;Sim;23;;;P;;S;12,0000;29.48;https://www.vendus.pt/foto/7081e9c5d4c4433bbe57c2de68f235a9.jpg
+Água com Gás;;;BEBIDAS S/ ALCOOL;Pedras;Pedras Salgadas 25cl;56004083;;Não;0,5500;0,4100;Uni;Sim;13;;;P;;S;-2,0000;18.71;
+Água com Gás  Limão;;;BEBIDAS S/ ALCOOL;Pedras;Pedras Limão 4 x 25 cl;5601195510128;;Não;2,9900;1,8400;Uni;Sim;23;;;P;;S;0;32.11;
+Água com Gás Frutos Vermelhos;;;BEBIDAS S/ ALCOOL;Pedras;Pedras F 4 x 25 cl;5601195510128;;Não;2,6000;1,6300;Uni;Sim;23;;;P;;S;6,0000;29.68;
+Água com Gás Frutos Vermelhos;;;BEBIDAS S/ ALCOOL;Pedras;Pedras F 25cl;56055702;;Não;0,6500;0,4100;Uni;Sim;23;;;P;;S;-1,0000;28.89;https://www.vendus.pt/foto/a3c7ac7895c4bcfcc352e28699d21057.jpg
+Água com Gás  Limão;;;BEBIDAS S/ ALCOOL;Pedras;Pedras L 25 cl;56002980;;Não;0,7500;0,4600;Uni;Sim;23;;;P;;S;-1,0000;32.56;https://www.vendus.pt/foto/4d9b505b0752bae107501fcb790fb63e.jpg
+Cerveja com Álcool;;;BEBIDAS C/ ALCOOL;Super Bock;Super Bock 24 x 33 cl;5601164404205;;Não;19,9900;12,7500;Uni;Sim;23;;;P;;S;0;27.47;https://www.vendus.pt/foto/32c132264507526ed3299951e3bcc320.jpg
+Cerveja com Álcool Preta;;;BEBIDAS C/ ALCOOL;Super Bock;Super Bock Stout 33cl;56001266;;Não;0,9500;0,5900;Uni;Sim;23;;;P;;S;0;30.91;https://www.vendus.pt/foto/e6df2f90d817c8e98d41bad03b8ee711.jpg
+Somersby Maça;;;BEBIDAS C/ ALCOOL;Somersby;Somersby Maça 33 cl;56015386;;Não;1,2500;0,7800;Uni;Sim;23;;;P;;S;15,0000;30.29;https://www.vendus.pt/foto/a74533a5e6d7d1e1e9cd7dce7501fdb3.png
+Somersby Blackberry;;;BEBIDAS C/ ALCOOL;Somersby;Somersby Blackberry 33 cl;56007022;;Não;1,2500;0,7800;Uni;Sim;23;;;P;;S;15,0000;30.29;https://www.vendus.pt/foto/d09bc6d8be8a4b52adb1ef3c88d1ceb3.png
+Cerveja com Álcool Mini;;;BEBIDAS C/ ALCOOL;Super Bock;Super Bock Mini 24 x20 cl;5601164001497;;Não;13,5900;8,5000;Uni;Sim;23;;;P;;S;0;29.99;https://www.vendus.pt/foto/664e6bb462bd7afefd24f2536698a3cc.jpg
+Super Bock Garrafa Mini 20 cl;;;BEBIDAS C/ ALCOOL;Super Bock;Super Bock Mini 20 cl;56002621;;Não;0,5500;0,3600;Uni;Sim;23;;;P;;S;-4,0000;24.21;
+Pão Forma Branco;;;MATINAIS;Bimbo;Bimbo  430g;5601027117303;;Não;2,1500;1,7700;Uni;Sim;6;;;P;ALI;S;0;14.59;
+Rosca Pão Ló;;;PADARIA;Odisseia;VROS527-24031623;;;Não;13,0000;9,5000;Kg;Sim;23;;;P;ALI;S;0;11.25;
+Lixivia  Perfume do Campo;;;LIMPEZA;Neoblanc;Neoblac 1 L;8001480020542;;Não;1,6900;1,0600;Uni;Sim;23;;;P;;S;18,0000;29.62;
+Saco de Lixo;;;LIMPEZA;Amanhecer 1;Amanhecer 50 L;5601227022902;;Não;1,3900;0,8900;Uni;Sim;23;;;P;CAS;S;0;26.98;
+Esfregao Salva Unhas;;;LIMPEZA;Amanhecer 1;Amanhecer 3 und;5601227029703;;Não;0,5500;0,3200;Uni;Sim;23;;;P;;S;11,0000;39.74;
+Detergente Liq. Roupa Escura;;;LIMPEZA;Ultra pro;Ultra 1.485 L;5601009992980;;Não;3,5900;2,2900;Uni;Sim;23;;;P;;S;8,0000;27.45;
+Detergente Liq. Roupa Delicada;;;LIMPEZA;Ultra pro;Ultra pro 72 doses;5601009992973;;Não;3,4900;2,1500;Uni;Sim;23;;;P;;S;0;31.97;
+Amaciador R. Concentrado Talco;;;LIMPEZA;Ultra pro;Ultra Pro 80 doses;5607047017401;;Não;2,4900;1,3200;Uni;Sim;23;;;P;;S;12,0000;53.36;
+Sabonete Sólido Glicerina Hidratante;;;HIGIENE;Palmolive;Palmolive Natural;8693495032940;;Não;0,9500;0,5900;Uni;Sim;23;;;P;;S;12,0000;30.91;
+Lixivia Moderna;;;LIMPEZA;Lixivia;Moderna 5 L;5603640000024;;Não;1,4500;0,9200;Uni;Sim;23;;;P;;S;4,0000;28.14;
+Iogurte Pedaços;;;IOGURTES;Amanhecer 1;Amanhecer  Morango 4 x 125g;5601227034752;;Não;1,1900;0,9200;Uni;Sim;6;;;P;ALI;S;-2,0000;22.03;
+Salsichas Frankfurt Originais Lata 6 un;;;CONSERVAS;Nobre;Nobre emb. 250 gr (peso escorrido 120 gr);5601119007963;;Não;1,1900;0,7200;Uni;Sim;23;;;P;;S;23,0000;34.37;
+Sabão Barra Azul;;;LIMPEZA;Confiança;Confiança  emb.5x100g;5601092000234;;Não;1,8900;1,1900;Uni;Sim;23;;;P;;S;3,0000;29.12;
+Sabão Barra Rosa;;;LIMPEZA;Confiança;Condiança emb.5x100g;5601092000128;;Não;1,8900;1,1900;Uni;Sim;23;;;P;;S;0;29.12;
+Areia p/ Gatos absorbente 5 kg.;;;PET;Zoolite;Zoolit;8480004012384;;Não;1,5000;0,9400;Uni;Sim;23;;;P;;S;3,0000;29.74;
+Cálem Velhotes Vinho do Porto Tawny;;;BEBIDAS C/ ALCOOL;Calem;Cálem garrafa 75 cl;5601077111023;;Não;5,5000;3,5500;Uni;Sim;23;;;P;;S;-2,0000;25.96;https://www.vendus.pt/foto/58fee788cb6c6ed1f44329afe68662ed.jpg
