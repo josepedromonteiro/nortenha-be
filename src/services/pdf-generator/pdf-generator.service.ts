@@ -25,10 +25,10 @@ export class PdfGeneratorService {
     // Calculate positions
     const startX = 30;
     const startY = 30;
-    const tagWidth = 160; // Tag width in mm
+    const tagWidth = 170; // Tag width in mm
     const tagHeight = 90; // Tag height in mm
-    const gutterX = 10; // Horizontal space between tags
-    const gutterY = 10; // Vertical space between tags
+    const gutterX = 0; // Horizontal space between tags
+    const gutterY = 0; // Vertical space between tags
     const tagsPerRow = 3;
     const tagsPerPage = 21;
 
@@ -92,32 +92,32 @@ export class PdfGeneratorService {
         width: tagWidth - 5,
         ellipsis: true,
         lineBreak: true,
-        height: 24,
+        height: 30,
       };
 
       doc
-        .fontSize(9)
+        .fontSize(11)
         .opacity(0.9)
         .font('Helvetica-Bold')
         .text(title, currentX + 5, currentY + 7, titleOptions);
 
       const titleHeight = doc.heightOfString(title, titleOptions);
 
-      doc
-        .fontSize(8)
-        .opacity(0.7)
-        .font('Helvetica-Bold')
-        .text(
-          `${(await this.vendusService.getBrandtById(product.brand_id))?.title ?? ''}`,
-          currentX + 5,
-          currentY + titleHeight + 9,
-          {
-            width: tagWidth / 2,
-            ellipsis: true,
-            lineBreak: true,
-            height: 10,
-          },
-        );
+      // doc
+      //   .fontSize(8)
+      //   .opacity(0.7)
+      //   .font('Helvetica-Bold')
+      //   .text(
+      //     `${(await this.vendusService.getBrandtById(product.brand_id))?.title ?? ''}`,
+      //     currentX + 5,
+      //     currentY + titleHeight + 9,
+      //     {
+      //       width: tagWidth / 2,
+      //       ellipsis: true,
+      //       lineBreak: true,
+      //       height: 10,
+      //     },
+      //   );
 
       doc
         .fontSize(7)
@@ -126,27 +126,27 @@ export class PdfGeneratorService {
         .text(
           `${product.description}`,
           currentX + 5,
-          currentY + titleHeight + 22,
+          currentY + titleHeight + 9,
           {
-            width: tagWidth / 2,
+            width: tagWidth / 2 + 15,
             ellipsis: true,
             lineBreak: true,
-            height: 16,
+            height: 20,
           },
         );
 
       doc
-        .fontSize(18)
+        .fontSize(21)
         .opacity(1)
         .font('Helvetica-Bold')
-        .text(`${product.gross_price} €`, currentX + 5, currentY + 56, {
+        .text(`${product.gross_price} €`, currentX + 5, currentY + 54, {
           width: tagWidth / 2,
           ellipsis: true,
           lineBreak: true,
         });
 
       doc
-        .fontSize(8)
+        .fontSize(10)
         .font('Helvetica')
         .opacity(0.5)
         .text(
@@ -164,8 +164,8 @@ export class PdfGeneratorService {
 
       if (product.barcode) {
         // Right side
-        const qrCodeWidth = tagHeight - 24;
-        const qrCodeHeight = tagHeight - 24;
+        const qrCodeWidth = tagHeight - 28;
+        const qrCodeHeight = tagHeight - 28;
 
         // Generate and add QR code
         const qrPath = `${product.id}_qr.png`;
