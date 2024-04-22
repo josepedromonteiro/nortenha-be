@@ -35,52 +35,46 @@ export class ProductService {
   }
 
   public async addProductsFromVendusAPI() {
-    // this.vendusService.getProducts().then(async (products) => {
-    //   const products_ = products.slice(0, 10);
-    //   const productToAdd = [];
-    //   for await (const product of products_) {
-    //     try {
-    //       const externalId = `${product.reference}-${product.barcode}`;
-    //       const vendusImageUrl = product.images?.m?.replace('_m', '');
-    //       const imageUrl = await this.uploadImage(vendusImageUrl, externalId);
-    //
-    //       const category = await this.vendusService.getCategoryById(
-    //         product.category_id,
-    //       );
-    //       const vat = await this.vendusService.getTaxById(product.tax_id);
-    //
-    //       console.log(
-    //         JSON.stringify({
-    //           title: product.title,
-    //           price: product.prices?.[0]?.price,
-    //           desc: product.description,
-    //           id: externalId,
-    //           cat: category.title,
-    //           image: imageUrl,
-    //           unit: product.unit_id,
-    //           rate: vat?.rate,
-    //           barcode: product.barcode,
-    //         }),
-    //       );
-    //
-    //       // await this.createProduct(
-    //       //   product.title,
-    //       //   product.prices?.[0]?.price,
-    //       //   product.description,
-    //       //   externalId,
-    //       //   category.title,
-    //       //   imageUrl,
-    //       //   product.unit_id,
-    //       //   vat.rate,
-    //       //   product.barcode,
-    //       // );
-    //     } catch (error) {
-    //       console.error(`Failed to create product: ${error}`);
-    //     }
-    //   }
-    //
-    //   await Promise.all(productToAdd);
-    // });
+    this.vendusService.getProducts().then(async (products) => {
+      const products_ = products;
+      const productToAdd = [];
+      for await (const product of products_) {
+        try {
+          const externalId = `${product.id}`;
+          const vendusImageUrl = product.images?.m?.replace('_m', '');
+          const imageUrl = await this.uploadImage(
+            vendusImageUrl,
+            externalId,
+            true,
+          );
+
+          const category = await this.vendusService.getCategoryById(
+            product.category_id,
+          );
+          const vat = await this.vendusService.getTaxById(product.tax_id);
+          const unit = await this.vendusService.getUnitById(product.unit_id);
+
+          await this.createProduct(
+            product.title,
+            product.prices?.[0]?.price,
+            product.description,
+            externalId,
+            category?.title,
+            vendusImageUrl,
+            unit,
+            vat?.rate?.toString(),
+            product?.barcode,
+            product,
+          );
+
+          console.log(`Finished adding ${product.title}`);
+        } catch (error) {
+          console.error(`Failed to create product: ${error}`);
+        }
+      }
+
+      await Promise.all(productToAdd);
+    });
   }
 
   public addProductsFromCSVFile() {
@@ -113,6 +107,7 @@ export class ProductService {
             unity,
             vat,
             barcode,
+            undefined,
           );
         } catch (error) {
           console.error(`Failed to create product: ${error}`);
@@ -129,11 +124,18 @@ export class ProductService {
   };
 
   // Function to upload image to WordPress
-  private uploadImage = async (imageUrl, productId): Promise<string> => {
+  private uploadImage = async (
+    imageUrl,
+    productId,
+    onlyRemove = false,
+  ): Promise<string> => {
     if (!imageUrl) return null;
-
     if (productId) {
       await this.removeProductImage(productId);
+    }
+
+    if (onlyRemove) {
+      return;
     }
 
     const file: ArrayBuffer = await axios
@@ -149,6 +151,8 @@ export class ProductService {
         if (res?.data?.source_url) {
           return res.data.source_url;
         }
+
+        console.log('uploading media...');
 
         const regex = /\{.*}/; // Regular expression to match anything between curly braces
         const match = res.data.match(regex);
@@ -186,7 +190,7 @@ export class ProductService {
   private removeProductImage = async (productId) => {
     // console.log(productId);
     return this.wooService.instance
-      .get('products', {
+      .get(`products`, {
         sku: productId,
       })
       .then(async (response) => {
@@ -200,11 +204,17 @@ export class ProductService {
           response.data[0].images.map((imageData) =>
             this.wpService
               .request(`media/${imageData.id}?force=true`, 'delete')
+              .then((res) => {
+                console.log('Media deleted succesfully', res.data?.deleted);
+              })
               .catch((e) => {
                 console.log('error', e);
               }),
           ),
         );
+      })
+      .catch((e) => {
+        console.error(`Error fetching product ${productId}`, e?.response?.data);
       });
   };
 
@@ -219,6 +229,7 @@ export class ProductService {
     unity,
     vat,
     barcode,
+    posData,
   ) => {
     const metadata = [
       {
@@ -228,6 +239,10 @@ export class ProductService {
       {
         key: 'barcode',
         value: barcode,
+      },
+      {
+        key: 'posData',
+        value: JSON.stringify(posData),
       },
     ];
     const payload: RecursivePartial<Product> = {
@@ -242,7 +257,7 @@ export class ProductService {
     };
 
     if (image) {
-      payload.images = [{ src: image }];
+      payload.images = [{ src: image, name: external_id }];
     }
 
     return this.wooService.instance
@@ -257,7 +272,7 @@ export class ProductService {
           console.warn('Product exists, updating...', existingProductId);
           return this.updateProduct(existingProductId, payload);
         } else {
-          console.error('Error creating product', e);
+          console.error('Error creating product', e?.response?.data);
         }
       });
   };

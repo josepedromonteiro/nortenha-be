@@ -1,6 +1,7 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 import WooCommerceRestApi from '@woocommerce/woocommerce-rest-api';
+import { WoocommerceService } from './services/woocommerce/woocommerce.service';
 
 @Controller()
 export class AppController {
@@ -11,11 +12,19 @@ export class AppController {
     version: 'wc/v3',
   });
 
-  constructor(private readonly appService: AppService) {}
+  constructor(
+    private readonly appService: AppService,
+    private readonly wooService: WoocommerceService,
+  ) {}
 
   @Get()
   getHello(): string {
     return this.appService.getHello();
+  }
+
+  @Get('redeploy-website')
+  redeploy() {
+    return this.wooService.redeployWebsite();
   }
 
   @Get('/delete-products')

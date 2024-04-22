@@ -32,17 +32,17 @@ export class VendusService {
   private brands?: VendusBrand[];
 
   public request = (params: VendusRequestParams) => {
-    console.log({
-      method: params.method,
-      url: `${params.baseUrl ? `${params.baseUrl}/${params.apiVersion ? `${params.apiVersion}/` : ''}` : `${VENDUS_BASE_URL}/`}${params.url}`,
-      data: params.data,
-      params: {
-        api_key: VENDUS_API_KEY,
-        per_page: params?.pagination?.elementsPerPage,
-        page: params?.pagination?.pageNumber,
-        ...params.params,
-      },
-    });
+    // console.log({
+    //   method: params.method,
+    //   url: `${params.baseUrl ? `${params.baseUrl}/${params.apiVersion ? `${params.apiVersion}/` : ''}` : `${VENDUS_BASE_URL}/`}${params.url}`,
+    //   data: params.data,
+    //   params: {
+    //     api_key: VENDUS_API_KEY,
+    //     per_page: params?.pagination?.elementsPerPage,
+    //     page: params?.pagination?.pageNumber,
+    //     ...params.params,
+    //   },
+    // });
     return axios({
       method: params.method,
       url: `${params.baseUrl ? `${params.baseUrl}/${params.apiVersion ? `${params.apiVersion}/` : ''}` : `${VENDUS_BASE_URL}/`}${params.url}`,
@@ -76,7 +76,7 @@ export class VendusService {
       ? Promise.resolve(this.categories)
       : this.request({
           method: 'get',
-          url: 'products/brands',
+          url: 'products/categories',
           pagination: {
             elementsPerPage: params?.elementsPerPage ?? 1000,
             pageNumber: params?.pageNumber ?? 0,
@@ -114,8 +114,8 @@ export class VendusService {
   }
 
   public getUnits(params?: Pagination): Promise<VendusUnit[]> {
-    return this.taxes
-      ? Promise.resolve(this.taxes)
+    return this.units
+      ? Promise.resolve(this.units)
       : this.request({
           method: 'get',
           url: 'products/units',

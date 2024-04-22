@@ -4,10 +4,17 @@ import {
   VendusService,
 } from '../../services/vendus/vendus.service';
 import { Response } from 'express';
+import {
+  WoocommerceRequestParams,
+  WoocommerceService,
+} from '../../services/woocommerce/woocommerce.service';
 
 @Controller('bypass')
 export class BypassController {
-  constructor(private readonly vendusService: VendusService) {}
+  constructor(
+    private readonly vendusService: VendusService,
+    private readonly wooService: WoocommerceService,
+  ) {}
 
   @Post('vendus')
   vendus(@Body() body: VendusRequestParams, @Res() response: Response) {
@@ -20,5 +27,24 @@ export class BypassController {
       .then((res) => {
         response.json(res.data);
       });
+  }
+
+  @Post('woocommerce')
+  woocommerce(
+    @Body() body: WoocommerceRequestParams,
+    @Res() response: Response,
+  ) {
+    return (
+      this.wooService
+        .request({
+          ...body,
+        })
+        // .catch((res) => {
+        //   return response.json(res);
+        // })
+        .then((res) => {
+          response.json(res.data);
+        })
+    );
   }
 }
