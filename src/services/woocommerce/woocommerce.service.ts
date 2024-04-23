@@ -84,9 +84,17 @@ export class WoocommerceService {
 
   // Function to install npm dependencies
   async installDependencies(directory: string) {
+    console.log('Start npm dependencies installation');
     try {
       process.chdir(directory);
-      await spawnAsync('npm', ['install']);
+      const process_ = spawnAsync('npm', ['install']);
+      process_.child.stdout.on('data', (data) => {
+        console.log('npm stdout:', data);
+      });
+      process_.child.stderr.on('data', (data) => {
+        console.error('!!!!!npm ERROR!!!!!1:', data);
+      });
+      await process_;
       console.log('Dependencies installed successfully.');
     } catch (error) {
       console.error('Error installing dependencies:', error);
