@@ -88,11 +88,11 @@ export class WoocommerceService {
     try {
       process.chdir(directory);
       const process_ = spawnAsync('npm', ['install']);
-      process_.child.stdout.on('data', (data) => {
-        console.log('npm stdout:', data);
+      process_.child.on('data', (data) => {
+        console.log('npm stdout:', new TextDecoder().decode(data));
       });
       process_.child.stderr.on('data', (data) => {
-        console.error('!!!!!npm ERROR!!!!!1:', data);
+        console.error('!!!!!npm ERROR!!!!!1:', new TextDecoder().decode(data));
       });
       await process_;
       console.log('Dependencies installed successfully.');
@@ -121,9 +121,6 @@ export class WoocommerceService {
         user: this.config.get('FTP_USERNAME'),
         password: this.config.get('FTP_PASSWORD'),
       });
-
-      console.log(client.ftp);
-      console.log(await client.list());
       await client.cd('domains/companhianortenha.com/public_html/app');
       await client.clearWorkingDir();
       await client.uploadFromDir(directory);
@@ -134,6 +131,7 @@ export class WoocommerceService {
       await client.close();
     }
   }
+
   public async redeployWebsite() {
     // Define the repository URL, destination directory, and npm command
     const github_access_token = this.config.get('GITHUB_TOKEN');
@@ -141,14 +139,19 @@ export class WoocommerceService {
     const destinationPath = './repo';
     const npmCommand = 'generate'; // Change this to the desired npm command
 
-    // Clone the repository
-    await this.cloneRepo(repoUrl, destinationPath);
+    try {
+      // Clone the repository
+      await this.cloneRepo(repoUrl, destinationPath);
 
-    // Install npm dependencies
-    await this.installDependencies(destinationPath);
+      // Install npm dependencies
+      await this.installDependencies(destinationPath);
 
-    // Run an npm command
-    await this.runNpmCommand(destinationPath, npmCommand);
+      // Run an npm command
+      await this.runNpmCommand(destinationPath, npmCommand);
+    } catch (e) {
+      console.error(e);
+      return;
+    }
 
     await this.deployToFTP(`${destinationPath}/.output/public`);
   }
