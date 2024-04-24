@@ -104,8 +104,21 @@ export class WoocommerceService {
   // Function to run an npm command
   async runNpmCommand(directory: string, command: string) {
     try {
+      console.log('Start generating pages');
       // process.chdir(directory);
-      await spawnAsync('npm', ['run', 'generate']);
+      const process_ = spawnAsync('npm', ['run', 'generate']);
+
+      process_.child.on('data', (data) => {
+        console.log('generate stdout:', new TextDecoder().decode(data));
+      });
+      process_.child.stderr.on('data', (data) => {
+        console.error(
+          '!!!!!generate ERROR!!!!!:',
+          new TextDecoder().decode(data),
+        );
+      });
+
+      await process_;
       console.log(`npm ${command} command executed successfully.`);
     } catch (error) {
       console.error(`Error running npm ${command} command:`, error);
@@ -150,7 +163,7 @@ export class WoocommerceService {
       await this.runNpmCommand(destinationPath, npmCommand);
     } catch (e) {
       console.error(e);
-      return;
+      return e;
     }
 
     await this.deployToFTP(`${destinationPath}/.output/public`);

@@ -1,7 +1,8 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, HttpStatus, Res } from '@nestjs/common';
 import { AppService } from './app.service';
 import WooCommerceRestApi from '@woocommerce/woocommerce-rest-api';
 import { WoocommerceService } from './services/woocommerce/woocommerce.service';
+import { Response } from 'express';
 
 @Controller()
 export class AppController {
@@ -23,8 +24,14 @@ export class AppController {
   }
 
   @Get('redeploy-website')
-  redeploy() {
-    return this.wooService.redeployWebsite();
+  async redeploy(@Res() response: Response) {
+    try {
+      await this.wooService.redeployWebsite();
+    } catch (e) {
+      return response.status(HttpStatus.NOT_ACCEPTABLE).send(e);
+    }
+
+    return response.status(HttpStatus.OK).send('Page updated successfully');
   }
 
   @Get('/delete-products')
