@@ -107,7 +107,6 @@ export class WoocommerceService {
       console.log('Start generating pages');
       // process.chdir(directory);
       const process_ = spawnAsync('npm', ['run', 'generate']);
-
       process_.child.on('data', (data) => {
         console.log('generate stdout:', new TextDecoder().decode(data));
       });
@@ -134,7 +133,7 @@ export class WoocommerceService {
         user: this.config.get('FTP_USERNAME'),
         password: this.config.get('FTP_PASSWORD'),
       });
-      await client.cd('domains/companhianortenha.com/public_html/app');
+      await client.cd('/mercearianortenha.pt');
       await client.clearWorkingDir();
       await client.uploadFromDir(directory);
       console.log('Directory deployed to FTP server successfully.');

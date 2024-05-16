@@ -26,6 +26,7 @@
     "@nestjs/core": "^10.0.0",
     "@nestjs/jwt": "^10.2.0",
     "@nestjs/platform-express": "^10.0.0",
+    "@nestjs/schedule": "^4.0.2",
     "@types/pdfkit": "^0.13.4",
     "@types/qr-image": "^3.2.9",
     "@woocommerce/woocommerce-rest-api": "^1.0.1",

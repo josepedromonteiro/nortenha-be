@@ -11,6 +11,8 @@ import { BypassController } from './controllers/bypass/bypass.controller';
 import { AuthModule } from './modules/auth/auth.module';
 import { UsersModule } from './modules/users/users.module';
 import { ConfigModule } from '@nestjs/config';
+import { ScheduleModule } from '@nestjs/schedule';
+import { TasksService } from './services/tasks/tasks.service';
 
 @Module({
   controllers: [AppController, ProductController, BypassController],
@@ -21,7 +23,13 @@ import { ConfigModule } from '@nestjs/config';
     WoocommerceService,
     VendusService,
     PdfGeneratorService,
+    TasksService,
   ],
-  imports: [AuthModule, UsersModule, ConfigModule.forRoot()],
+  imports: [
+    AuthModule,
+    UsersModule,
+    ConfigModule.forRoot(),
+    ScheduleModule.forRoot(),
+  ],
 })
 export class AppModule {}

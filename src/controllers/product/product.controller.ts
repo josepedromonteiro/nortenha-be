@@ -23,7 +23,7 @@ export class ProductController {
 
   @Get('add-vendus-products')
   addProductsVendus() {
-    return this.productService.addProductsFromVendusAPI();
+    return this.productService.addProductsFromVendusAPI({ syncImages: true });
   }
 
   @Get('generate-tags')

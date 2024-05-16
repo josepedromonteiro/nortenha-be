@@ -56,14 +56,18 @@ export class VendusService {
     });
   };
 
-  public getProducts(params?: Pagination): Promise<VendusProduct[]> {
+  public getProducts(
+    pagination?: Pagination,
+    otherParams?: any,
+  ): Promise<VendusProduct[]> {
     return this.request({
       method: 'get',
       url: 'products',
       pagination: {
-        elementsPerPage: params?.elementsPerPage ?? 1000,
-        pageNumber: params?.pageNumber ?? 0,
+        elementsPerPage: pagination?.elementsPerPage ?? 1000,
+        pageNumber: pagination?.pageNumber ?? 0,
       },
+      params: otherParams,
     })
       .then((response) => response.data)
       .catch((e) => {

@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { HttpStatus, Injectable } from '@nestjs/common';
 import { WordpressService } from '../wordpress/wordpress.service';
 import * as fs from 'fs';
 import * as csv from 'csv-parser';
@@ -34,47 +34,52 @@ export class ProductService {
     });
   }
 
-  public async addProductsFromVendusAPI() {
-    this.vendusService.getProducts().then(async (products) => {
-      const products_ = products;
-      const productToAdd = [];
-      for await (const product of products_) {
-        try {
-          const externalId = `${product.id}`;
-          const vendusImageUrl = product.images?.m?.replace('_m', '');
-          const imageUrl = await this.uploadImage(
-            vendusImageUrl,
-            externalId,
-            true,
-          );
+  public async addProductsFromVendusAPI({ syncImages = false }) {
+    return this.vendusService
+      .getProducts(
+        { elementsPerPage: 1000, pageNumber: 0 },
+        {
+          status: 'on',
+        },
+      )
+      .then(async (products) => {
+        const products_ = products;
+        for await (const product of products_) {
+          try {
+            const externalId = `${product.id}`;
+            const productExists = await this.checkIfProductExists(externalId);
+            let vendusImageUrl = undefined;
+            if (syncImages || !productExists) {
+              vendusImageUrl = product.images?.m?.replace('_m', '');
+              //this will only remove the previous images, since it will add automatically when creating the product
+              await this.uploadImage(vendusImageUrl, externalId, true);
+            }
 
-          const category = await this.vendusService.getCategoryById(
-            product.category_id,
-          );
-          const vat = await this.vendusService.getTaxById(product.tax_id);
-          const unit = await this.vendusService.getUnitById(product.unit_id);
+            const category = await this.vendusService.getCategoryById(
+              product.category_id,
+            );
 
-          await this.createProduct(
-            product.title,
-            product.prices?.[0]?.price,
-            product.description,
-            externalId,
-            category?.title,
-            vendusImageUrl,
-            unit,
-            vat?.rate?.toString(),
-            product?.barcode,
-            product,
-          );
+            const vat = await this.vendusService.getTaxById(product.tax_id);
+            const unit = await this.vendusService.getUnitById(product.unit_id);
 
-          console.log(`Finished adding ${product.title}`);
-        } catch (error) {
-          console.error(`Failed to create product: ${error}`);
+            await this.createProduct(
+              product.title,
+              product.prices?.[0]?.price,
+              product.description,
+              externalId,
+              category?.title,
+              vendusImageUrl,
+              unit,
+              vat?.rate?.toString(),
+              product?.barcode,
+              product,
+            );
+            console.log(`Finished adding ${product.title}`);
+          } catch (error) {
+            console.error(`Failed to create product: ${error}`);
+          }
         }
-      }
-
-      await Promise.all(productToAdd);
-    });
+      });
   }
 
   public addProductsFromCSVFile() {
@@ -123,6 +128,23 @@ export class ProductService {
     return Math.random().toString(36).substring(2) + Date.now().toString(36);
   };
 
+  private checkIfProductExists = (sku: string) => {
+    return this.wpService
+      .request(`products?sku=${sku}`, 'get')
+      .then((res) => {
+        if (res.status == HttpStatus.OK) {
+          console.log(res.data);
+          return res.data;
+        }
+        return [];
+      })
+      .then((products) => {
+        return (products?.length || 0) > 0;
+      })
+      .catch(() => {
+        return false;
+      });
+  };
   // Function to upload image to WordPress
   private uploadImage = async (
     imageUrl,
@@ -255,7 +277,6 @@ export class ProductService {
       meta_data: metadata as any,
       tax_class: vat,
     };
-
     if (image) {
       payload.images = [{ src: image, name: external_id }];
     }
@@ -270,6 +291,7 @@ export class ProductService {
         const existingProductId = e?.response?.data?.data?.resource_id;
         if (existingProductId) {
           console.warn('Product exists, updating...', existingProductId);
+
           return this.updateProduct(existingProductId, payload);
         } else {
           console.error('Error creating product', e?.response?.data);
