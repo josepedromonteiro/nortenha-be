@@ -75,6 +75,18 @@ export class VendusService {
       });
   }
 
+  public getProductById(id: number): Promise<VendusProduct> {
+    return this.request({
+      method: 'get',
+      url: `products/${id}`,
+      // params: otherParams,
+    })
+      .then((response) => response.data)
+      .catch((e) => {
+        console.error(e);
+      });
+  }
+
   public getCategories(params?: Pagination): Promise<VendusCategory[]> {
     return this.categories
       ? Promise.resolve(this.categories)
@@ -139,8 +151,8 @@ export class VendusService {
   }
 
   public getBrands(params?: Pagination): Promise<VendusBrand[]> {
-    return this.taxes
-      ? Promise.resolve(this.taxes)
+    return this.brands
+      ? Promise.resolve(this.brands)
       : this.request({
           method: 'get',
           url: 'products/brands',
@@ -173,7 +185,7 @@ export class VendusService {
     return (await this.getUnits())?.filter((tax) => tax.id == id)?.[0];
   }
 
-  public async getBrandtById(id: number): Promise<VendusBrand | undefined> {
+  public async getBrandById(id: number): Promise<VendusBrand | undefined> {
     return (await this.getBrands())?.filter((tax) => tax.id == id)?.[0];
   }
 }

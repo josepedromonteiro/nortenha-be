@@ -3,6 +3,7 @@ import {
   Controller,
   Get,
   Header,
+  Param,
   Post,
   Res,
   StreamableFile,
@@ -21,6 +22,14 @@ export class ProductController {
     return this.productService.addProductsFromCSVFile();
   }
 
+  @Get('add-vendus-products/:id')
+  addProductVendus(@Param('id') vendusId: number) {
+    console.log(vendusId);
+    return this.productService.addProductFromVendusAPI(vendusId, {
+      syncImages: true,
+    });
+  }
+
   @Get('add-vendus-products')
   addProductsVendus() {
     return this.productService.addProductsFromVendusAPI({ syncImages: true });
@@ -29,6 +38,14 @@ export class ProductController {
   @Get('generate-tags')
   generateTags() {
     return this.productService.generateProductTags();
+  }
+
+  @Get('generate-inventory-sheet')
+  @Header('content-type', 'application/pdf')
+  @Header('Content-Disposition', 'attachment; filename=inventory.pdf')
+  async generateInventorySheet(@Res() response: Response) {
+    const pdf = await this.productService.generateInventorySheet();
+    pdf.pipe(response);
   }
 
   @Post('generate-tag')

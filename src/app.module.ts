@@ -13,6 +13,7 @@ import { UsersModule } from './modules/users/users.module';
 import { ConfigModule } from '@nestjs/config';
 import { ScheduleModule } from '@nestjs/schedule';
 import { TasksService } from './services/tasks/tasks.service';
+import { InventoryPdfGeneratorService } from './services/pdf-generator/inventory-pdf-generator.service';
 
 @Module({
   controllers: [AppController, ProductController, BypassController],
@@ -23,6 +24,7 @@ import { TasksService } from './services/tasks/tasks.service';
     WoocommerceService,
     VendusService,
     PdfGeneratorService,
+    InventoryPdfGeneratorService,
     TasksService,
   ],
   imports: [

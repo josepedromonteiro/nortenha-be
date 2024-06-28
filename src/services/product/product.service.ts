@@ -10,6 +10,7 @@ import { Product } from '../../models/woo/product';
 import { VendusService } from '../vendus/vendus.service';
 import { PdfGeneratorService } from '../pdf-generator/pdf-generator.service';
 import { VendusProduct } from '../../models/vendus/product';
+import { InventoryPdfGeneratorService } from '../pdf-generator/inventory-pdf-generator.service';
 
 const CSV_FILE = 'products.csv';
 
@@ -20,6 +21,7 @@ export class ProductService {
     public wooService: WoocommerceService,
     public vendusService: VendusService,
     public pdfGenerator: PdfGeneratorService,
+    public inventoryPdfGenerator: InventoryPdfGeneratorService,
   ) {}
 
   public async generateProductTags(products?: VendusProduct[]) {
@@ -45,41 +47,71 @@ export class ProductService {
       .then(async (products) => {
         const products_ = products;
         for await (const product of products_) {
-          try {
-            const externalId = `${product.id}`;
-            const productExists = await this.checkIfProductExists(externalId);
-            let vendusImageUrl = undefined;
-            if (syncImages || !productExists) {
-              vendusImageUrl = product.images?.m?.replace('_m', '');
-              //this will only remove the previous images, since it will add automatically when creating the product
-              await this.uploadImage(vendusImageUrl, externalId, true);
-            }
-
-            const category = await this.vendusService.getCategoryById(
-              product.category_id,
-            );
-
-            const vat = await this.vendusService.getTaxById(product.tax_id);
-            const unit = await this.vendusService.getUnitById(product.unit_id);
-
-            await this.createProduct(
-              product.title,
-              product.prices?.[0]?.price,
-              product.description,
-              externalId,
-              category?.title,
-              vendusImageUrl,
-              unit,
-              vat?.rate?.toString(),
-              product?.barcode,
-              product,
-            );
-            console.log(`Finished adding ${product.title}`);
-          } catch (error) {
-            console.error(`Failed to create product: ${error}`);
-          }
+          await this.tryAddVendusProduct(product, { syncImages });
         }
       });
+  }
+
+  public async generateInventorySheet() {
+    return this.vendusService
+      .getProducts(undefined, {
+        status: 'all',
+      })
+      .then((prd) => {
+        return this.inventoryPdfGenerator.generatePDF(prd);
+      });
+  }
+
+  public async addProductFromVendusAPI(
+    vendusId: number,
+    { syncImages = false },
+  ) {
+    return this.vendusService.getProductById(vendusId).then(async (product) => {
+      return this.tryAddVendusProduct(product, { syncImages });
+    });
+  }
+
+  private async tryAddVendusProduct(
+    product: VendusProduct,
+    { syncImages = false },
+  ) {
+    try {
+      console.log(product);
+      const externalId = `${product.id}`;
+      const productExists = await this.checkIfProductExists(externalId);
+      let vendusImageUrl = undefined;
+      if (syncImages || !productExists) {
+        vendusImageUrl = product.images?.m?.replace('_m', '');
+        //this will only remove the previous images, since it will add automatically when creating the product
+        await this.uploadImage(vendusImageUrl, externalId, true);
+      }
+
+      const category = await this.vendusService.getCategoryById(
+        product.category_id,
+      );
+
+      const vat = await this.vendusService.getTaxById(product.tax_id);
+      const unit = await this.vendusService.getUnitById(product.unit_id);
+
+      const wooProduct = await this.createProduct(
+        product.title,
+        product.prices?.[0]?.price,
+        product.description,
+        externalId,
+        category?.title,
+        vendusImageUrl,
+        unit,
+        vat?.rate?.toString(),
+        product?.barcode,
+        product,
+      );
+      console.log(`Finished adding ${product.title}`);
+
+      return wooProduct;
+    } catch (error) {
+      console.error(`Failed to create product: ${error}`);
+      throw error;
+    }
   }
 
   public addProductsFromCSVFile() {
@@ -285,7 +317,7 @@ export class ProductService {
       .post('products', payload)
       .then((response) => {
         console.log('Product created successfully', response?.data?.id);
-        return response;
+        return response.data;
       })
       .catch((e) => {
         const existingProductId = e?.response?.data?.data?.resource_id;
