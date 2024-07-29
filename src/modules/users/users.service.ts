@@ -12,6 +12,11 @@ export class UsersService {
       password: 'Vam2024selho*',
     },
     {
+      userId: 3,
+      username: 'comercial@mercearianortenha.pt',
+      password: 'Vam2024selho*',
+    },
+    {
       userId: 2,
       username: 'miguelmorais20@gmail.com',
       password: 'Vam2024selho',

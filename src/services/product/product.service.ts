@@ -55,10 +55,11 @@ export class ProductService {
   public async generateInventorySheet() {
     return this.vendusService
       .getProducts(undefined, {
-        status: 'all',
+        status: 'on',
       })
       .then((prd) => {
-        return this.inventoryPdfGenerator.generatePDF(prd);
+        const products = prd.sort((a, b) => a.category_id - b.category_id);
+        return this.inventoryPdfGenerator.generatePDF(products);
       });
   }
 

@@ -6,12 +6,10 @@ import {
   Param,
   Post,
   Res,
-  StreamableFile,
 } from '@nestjs/common';
 import { ProductService } from '../../services/product/product.service';
 import { VendusProduct } from '../../models/vendus/product';
 import { Response } from 'express';
-import * as path from 'path';
 
 @Controller('product')
 export class ProductController {

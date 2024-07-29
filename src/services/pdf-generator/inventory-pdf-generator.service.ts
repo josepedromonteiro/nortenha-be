@@ -20,7 +20,6 @@ export class InventoryPdfGeneratorService {
     doc.pipe(stream);
 
     // Title
-
     doc.font('Helvetica-Bold');
     doc.fontSize(20).text('Inventário Mercearia Nortenha', { align: 'center' });
     doc.moveDown();
@@ -68,6 +67,7 @@ export class InventoryPdfGeneratorService {
     let startX = doc.page.margins.left;
     let startY = doc.y;
     const rowHeight = 20; // Adjust as needed for row height
+    let currentCategory = undefined;
 
     const drawTableHeader = () => {
       headers.forEach((header) => {
@@ -86,6 +86,24 @@ export class InventoryPdfGeneratorService {
       startX = doc.page.margins.left;
     };
 
+    const drawCategoryRow = async (cat: number) => {
+      const category = await this.vendusService.getCategoryById(cat);
+      const categoryText = `Categoria: ${category?.title ?? 'Sem categ.'}`;
+
+      doc
+        .fillColor('#DCDCDC')
+        .rect(startX, startY, pageWidth, rowHeight)
+        .fill();
+      doc
+        .fillColor('black')
+        .font('Helvetica-Bold')
+        .fontSize(12)
+        .text(categoryText, startX + 5, startY + 5);
+
+      startY += rowHeight;
+      doc.moveDown();
+    };
+
     const truncateText = (text: string, width: number): string => {
       const ellipsis = '...';
       const ellipsisWidth = doc.widthOfString(ellipsis) + 2;
@@ -94,7 +112,7 @@ export class InventoryPdfGeneratorService {
       while (
         doc.widthOfString(truncatedText) > width - ellipsisWidth &&
         truncatedText.length > 0
-      ) {
+        ) {
         truncatedText = truncatedText.slice(0, -1);
       }
 
@@ -113,7 +131,7 @@ export class InventoryPdfGeneratorService {
         doc.font('Helvetica').text(truncatedCell, startX + 5, startY + 5, {
           width: cellWidth - 10,
           align: 'center',
-          strike: i == 0 && !active
+          strike: i == 0 && !active,
         });
         startX += cellWidth;
       });
@@ -126,13 +144,37 @@ export class InventoryPdfGeneratorService {
       startX = doc.page.margins.left;
     };
 
+    const addNewPage = async (category_id: number) => {
+      doc.addPage({ size: 'A4', layout: 'landscape', margin: 40 });
+      startY = doc.y;
+      await drawCategoryRow(category_id); // Draw category header on new page
+      drawTableHeader(); // Draw header on each new page
+    };
+
     // Draw the table header initially
-    drawTableHeader();
+    if (products.length > 0) {
+      currentCategory = products[0].category_id;
+      await drawCategoryRow(currentCategory);
+      drawTableHeader();
+    }
 
     // Table Rows
     for (const product of products) {
-      const { title, brand_id, barcode, gross_price, stock } = product;
+      const { title, brand_id, barcode, gross_price, stock, category_id } =
+        product;
       const brand = await this.vendusService.getBrandById(brand_id);
+
+      // Check for category change
+      if (currentCategory !== category_id) {
+        currentCategory = category_id;
+        if (startY + rowHeight * 2 > doc.page.height - doc.page.margins.bottom) {
+          await addNewPage(category_id);
+        } else {
+          await drawCategoryRow(category_id);
+        }
+        drawTableHeader();
+      }
+
       const row = [
         title,
         brand?.title ?? '',
@@ -148,9 +190,7 @@ export class InventoryPdfGeneratorService {
 
       // Check if a new page is needed
       if (startY + rowHeight > doc.page.height - doc.page.margins.bottom) {
-        doc.addPage({ size: 'A4', layout: 'landscape', margin: 40 });
-        startY = doc.y;
-        drawTableHeader(); // Draw header on each new page
+        await addNewPage(currentCategory);
       }
     }
 
